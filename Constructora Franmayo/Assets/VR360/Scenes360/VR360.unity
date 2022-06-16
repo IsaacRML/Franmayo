@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -312,6 +312,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b1d28b1b2eb33849b1d2e336689123f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puntero: {fileID: 2800000, guid: 8c536fb0f4347284d8c9f611b8add9c0, type: 3}
+  sensibility: {x: 5, y: 5}
 --- !u!1 &2111923953
 GameObject:
   m_ObjectHideFlags: 0
