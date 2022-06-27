@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19044.1706; Version 2009; 64bit' Language: 'es' Physical Memory: 8025 MB
+OS: 'Windows 10 Home; OS build 19044.1766; Version 2009; 64bit' Language: 'es' Physical Memory: 8025 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/Jonathan/Documents/GitHub/Franmayo/Constructora Franmayo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59796
+56096
 Successfully changed project path to: C:/Users/Jonathan/Documents/GitHub/Franmayo/Constructora Franmayo
 C:/Users/Jonathan/Documents/GitHub/Franmayo/Constructora Franmayo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,28 +35,28 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003085 seconds.
+Registered in 0.002864 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.867 seconds
+- Completed reload, in  2.934 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004481 seconds.
+Registered in 0.004513 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.067 seconds
+- Completed reload, in  1.541 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -64,1205 +64,278 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 second
 Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1408 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.1 MB.
-System memory in use after: 67.1 MB.
+System memory in use before: 67.2 MB.
+System memory in use after: 67.3 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1843.
-Total: 2.624800 ms (FindLiveObjects: 0.188600 ms CreateObjectMapping: 0.047100 ms MarkObjects: 2.296200 ms  DeleteObjects: 0.092200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/VR360/Materials360/New Material.mat
-  artifactKey: Guid(3e5a33f691405ab4680032a96e9de004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/New Material.mat using Guid(3e5a33f691405ab4680032a96e9de004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ce4e80bf5fcec0fd2d4aa1d75e00e9') in 0.488313 seconds
-  Import took 0.491461 seconds .
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1846.
+Total: 2.059500 ms (FindLiveObjects: 0.151100 ms CreateObjectMapping: 0.047800 ms MarkObjects: 1.791400 ms  DeleteObjects: 0.068000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 313.490779 seconds.
-  path: Assets/Simple Garage/Materials/2K-false_ceiling_basecolor.mat
-  artifactKey: Guid(26bf5fcbcd484234398dc4274abd4e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/2K-false_ceiling_basecolor.mat using Guid(26bf5fcbcd484234398dc4274abd4e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d0060eb300ace4a5a35de58d3bd4ae') in 0.576158 seconds
-  Import took 0.579156 seconds .
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/BR_Tile_01_Mod.mat
+  artifactKey: Guid(99811246d7017024d85cfa934a83345b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/BR_Tile_01_Mod.mat using Guid(99811246d7017024d85cfa934a83345b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab18e0ef23ced1ddd3cf8bfee599ab89') in 2.150056 seconds
+  Import took 2.153233 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Simple Garage/Models/Cone Drill Bits.fbx
-  artifactKey: Guid(3688125de6839734b86ad19d18045e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Cone Drill Bits.fbx using Guid(3688125de6839734b86ad19d18045e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be12ebaec62867c586ddf27b4efcfe4') in 0.345474 seconds
-  Import took 0.349992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Simple Garage/Materials/[0036_BurlyWood].mat
-  artifactKey: Guid(b233ae0ecddf1804ab2ba09bd2e0ccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[0036_BurlyWood].mat using Guid(b233ae0ecddf1804ab2ba09bd2e0ccc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f5547742c883591fc40ae91af0affa') in 0.035969 seconds
-  Import took 0.039436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Simple Garage/Materials/[0132_LightGray].mat
-  artifactKey: Guid(4e86ca9f8f7424744a4426c0ee5c0145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[0132_LightGray].mat using Guid(4e86ca9f8f7424744a4426c0ee5c0145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79f05d511101fad139100c3db32625a') in 0.038414 seconds
-  Import took 0.043120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Simple Garage/Models/Clamps.fbx
-  artifactKey: Guid(f9176ded31cec7b49a01685aa5d28e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Clamps.fbx using Guid(f9176ded31cec7b49a01685aa5d28e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f83d5f5769fde1e76f5d7c48ad545f') in 0.161793 seconds
-  Import took 0.165136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Simple Garage/Materials/_Silver_.mat
-  artifactKey: Guid(28af6d158fe16b640b963a7062aa7f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_Silver_.mat using Guid(28af6d158fe16b640b963a7062aa7f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8558d6e3c817ddba3adc3ce445e3708') in 0.043284 seconds
-  Import took 0.045932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Simple Garage/Materials/[Color_009].mat
-  artifactKey: Guid(55b8eb16ac31e2d419b8cf5d4b960ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color_009].mat using Guid(55b8eb16ac31e2d419b8cf5d4b960ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead02b066c1721af84ad5fd02aca36e0') in 0.037855 seconds
-  Import took 0.040791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Antique.mat
-  artifactKey: Guid(7a2c0b18d3d81384a9318118e5c1c9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Antique.mat using Guid(7a2c0b18d3d81384a9318118e5c1c9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e026c4e2caeafe1bf29d488b046d3f7f') in 0.052216 seconds
-  Import took 0.056529 seconds .
+  Time since last request: 0.000387 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Brick 02.mat
+  artifactKey: Guid(3d1a06be464c4f34a858b507405a7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Brick 02.mat using Guid(3d1a06be464c4f34a858b507405a7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3156d6305fdf44aa0ff5f931af763acf') in 1.359843 seconds
+  Import took 1.362680 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000302 seconds.
-  path: Assets/Simple Garage/Materials/_White_.mat
-  artifactKey: Guid(f5584f8e6d4d4a74abcdc955652a5573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_White_.mat using Guid(f5584f8e6d4d4a74abcdc955652a5573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3a352e51f95a27ebe137d6fa54d322') in 0.053120 seconds
-  Import took 0.055801 seconds .
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Brushed Chrome.mat
+  artifactKey: Guid(403f7691aae4323499829c9fc28c7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Brushed Chrome.mat using Guid(403f7691aae4323499829c9fc28c7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b021aa67e20d669957beb83d88a632') in 0.115382 seconds
+  Import took 0.117967 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Simple Garage/Materials/[Color_C14].mat
-  artifactKey: Guid(8f2b7ac5ceaeadc44838c40dd161480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color_C14].mat using Guid(8f2b7ac5ceaeadc44838c40dd161480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b46c639cad838c38f81856fbe34e59') in 0.060892 seconds
-  Import took 0.063537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Simple Garage/Models/Ridgid oscillating belt sander.fbx
-  artifactKey: Guid(6bf857a61a1ede54ab81a1649be6c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Ridgid oscillating belt sander.fbx using Guid(6bf857a61a1ede54ab81a1649be6c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4682d52ebf5b7fb72d54be81efff1657') in 0.071817 seconds
-  Import took 0.074541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Simple Garage/Models/Black suitcase.fbx
-  artifactKey: Guid(c5c9be30d805efd40b01a9be27ef4b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Black suitcase.fbx using Guid(c5c9be30d805efd40b01a9be27ef4b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd23174dff38b2f9137b97d772c4425') in 0.082809 seconds
-  Import took 0.086755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Simple Garage/Materials/_Gray6_.mat
-  artifactKey: Guid(a21417e157ac92141a0b12b3c32f207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_Gray6_.mat using Guid(a21417e157ac92141a0b12b3c32f207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e44bceb18ba1b1d52b77dc084a2220') in 0.036971 seconds
-  Import took 0.039612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Simple Garage/Materials/_Red_.mat
-  artifactKey: Guid(cddb471e6547e60479172832501a77c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_Red_.mat using Guid(cddb471e6547e60479172832501a77c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94583fe38c549eb7624e3fbd3e4d3992') in 0.019736 seconds
-  Import took 0.023526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000990 seconds.
-  path: Assets/Simple Garage/Materials/[Color_003].mat
-  artifactKey: Guid(6453aa9316b043047a8785e48b115d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color_003].mat using Guid(6453aa9316b043047a8785e48b115d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0713d5cdb06ca9dd53536fe0922cdff2') in 0.044998 seconds
-  Import took 0.051249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Simple Garage/Models/Red suitcase.fbx
-  artifactKey: Guid(317ca1a0c8a7425428605b4f094ed3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Red suitcase.fbx using Guid(317ca1a0c8a7425428605b4f094ed3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dac33ded1679d66e92ea094400988a0') in 0.059713 seconds
-  Import took 0.062566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Simple Garage/Models/Machinery parts.on the floor.fbx
-  artifactKey: Guid(0bbe402466917cb46b2d7bfa99dde560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Machinery parts.on the floor.fbx using Guid(0bbe402466917cb46b2d7bfa99dde560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143c21feeccb461d8526a5ab4c54e93d') in 0.060718 seconds
-  Import took 0.065485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Simple Garage/Models/Hooks.fbx
-  artifactKey: Guid(9d9d603cd8152f544990637a82b4e8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Hooks.fbx using Guid(9d9d603cd8152f544990637a82b4e8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047c6cd0d66de2dab09190884cbb61ec') in 0.048375 seconds
-  Import took 0.050968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Simple Garage/Materials/_LightSlateGray_.mat
-  artifactKey: Guid(02b55bddfc547044b86c0dbf448cbf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_LightSlateGray_.mat using Guid(02b55bddfc547044b86c0dbf448cbf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5bb691935a63565b83d30c311e4a43') in 0.039000 seconds
-  Import took 0.042617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Simple Garage/Materials/[Color_008].mat
-  artifactKey: Guid(46ad52cea5356844da7e50bd859b8fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color_008].mat using Guid(46ad52cea5356844da7e50bd859b8fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91846e9e51d14851f8513153419f512d') in 0.038471 seconds
-  Import took 0.043508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Simple Garage/Models/Hook cylinder type.fbx
-  artifactKey: Guid(8b60d343f08319d4e9a2b179a6b42b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Hook cylinder type.fbx using Guid(8b60d343f08319d4e9a2b179a6b42b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d19e93ea2de21dcceb15c93dc83d0ea') in 0.059316 seconds
-  Import took 0.062084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Simple Garage/Models/Camouflage suitcase.fbx
-  artifactKey: Guid(0110015a6c2dc6a4f922574f1e6115cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Camouflage suitcase.fbx using Guid(0110015a6c2dc6a4f922574f1e6115cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fa204b3e41a9c66db99700ee1a8b47') in 0.138709 seconds
-  Import took 0.141524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Adler Light Wood.mat
-  artifactKey: Guid(4e3472c094b8146469870886e7ccf1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Adler Light Wood.mat using Guid(4e3472c094b8146469870886e7ccf1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eadf9aa9eecc6a4ba8fdfe599d404e2') in 0.267622 seconds
-  Import took 0.270682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Simple Garage/Models/Sponge.fbx
-  artifactKey: Guid(9d6e34dbf58d5c84c8d5b0859fba43ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Sponge.fbx using Guid(9d6e34dbf58d5c84c8d5b0859fba43ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf32054d89a1d4b779b240ab754f5e08') in 0.070136 seconds
-  Import took 0.072795 seconds .
+  Time since last request: 0.000337 seconds.
+  path: Assets/FurnishedCabin/Meshes/Materials/Bed_Sink_MAT.mat
+  artifactKey: Guid(a410a9048765ffe46afbbaee6e46e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Materials/Bed_Sink_MAT.mat using Guid(a410a9048765ffe46afbbaee6e46e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f9ad696857032b46ab5305ef2d0ae2') in 0.549359 seconds
+  Import took 0.552688 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000342 seconds.
-  path: Assets/Simple Garage/Materials/[0136_Charcoal]2.mat
-  artifactKey: Guid(a1bfe3a4435270d4eb36c3f8b89f6215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[0136_Charcoal]2.mat using Guid(a1bfe3a4435270d4eb36c3f8b89f6215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079f487b55325efe3718cbc736d2cb44') in 0.039765 seconds
-  Import took 0.043665 seconds .
+  path: Assets/Simple Garage/Materials/black2.mat
+  artifactKey: Guid(ea1cc228a30b5794d8addf0bf689c990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/black2.mat using Guid(ea1cc228a30b5794d8addf0bf689c990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e19c02815b6f30c91f4fb06343f3131') in 0.073639 seconds
+  Import took 0.076261 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Simple Garage/Models/White suitcase.fbx
-  artifactKey: Guid(9da4e6e9dbea8e8498df7878310535ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/White suitcase.fbx using Guid(9da4e6e9dbea8e8498df7878310535ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0c7c82a7a8ab3f6c81b46dc157f7b5') in 0.056910 seconds
-  Import took 0.060343 seconds .
+  Time since last request: 0.000350 seconds.
+  path: Assets/FurnishedCabin/Meshes/Materials/BuildingA_MAT.mat
+  artifactKey: Guid(022d678aa22a77a408d84ccaf0192e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Materials/BuildingA_MAT.mat using Guid(022d678aa22a77a408d84ccaf0192e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cc73ac7bd42eec1910029caef0a918') in 0.620099 seconds
+  Import took 0.623458 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Simple Garage/Materials/_Black_.mat
-  artifactKey: Guid(6bb0646f945fbe54f8d856b346e6c2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_Black_.mat using Guid(6bb0646f945fbe54f8d856b346e6c2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6032ed1ad936a978cc37be4cbc4bbc6e') in 0.065170 seconds
-  Import took 0.068498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Simple Garage/Models/Opened locker.fbx
-  artifactKey: Guid(14d2aee51ed41ad4fb466baeb037c9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Opened locker.fbx using Guid(14d2aee51ed41ad4fb466baeb037c9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c38d2254c8d23f71e76c224d9f15bf3') in 0.125591 seconds
-  Import took 0.128649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Simple Garage/Materials/[Color_A11].mat
-  artifactKey: Guid(36093744cd3aa9d42907bee716812a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color_A11].mat using Guid(36093744cd3aa9d42907bee716812a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2881463c7098dc38eefca23f5ed84b68') in 0.031908 seconds
-  Import took 0.034960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Simple Garage/Materials/[Color H08].mat
-  artifactKey: Guid(068ccec6c0b7c534a90dfff20710c38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color H08].mat using Guid(068ccec6c0b7c534a90dfff20710c38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5938f6ec58028f4e05dd0dc7ce970c') in 0.037557 seconds
-  Import took 0.040332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000550 seconds.
-  path: Assets/Simple Garage/Materials/[Color_007].mat
-  artifactKey: Guid(81d40aa4a64960c48900fd4a43890725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color_007].mat using Guid(81d40aa4a64960c48900fd4a43890725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adccb3fe78ef86058da4bee9b9e2ac6') in 0.041441 seconds
-  Import took 0.045739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Simple Garage/Materials/_16.mat
-  artifactKey: Guid(e442faa0dbf483c4ca6d09db3a5156c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_16.mat using Guid(e442faa0dbf483c4ca6d09db3a5156c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a626c2f280ddd501f0d947d675010b7f') in 0.068664 seconds
-  Import took 0.072288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000619 seconds.
-  path: Assets/Simple Garage/Materials/[Color_I08].mat
-  artifactKey: Guid(87a8b9a6a53562c499d7fc6fb4defaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color_I08].mat using Guid(87a8b9a6a53562c499d7fc6fb4defaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cbba4c2d5115c1d2acebd17d695f21') in 0.040708 seconds
-  Import took 0.044488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Simple Garage/Materials/_16.mat
-  artifactKey: Guid(e442faa0dbf483c4ca6d09db3a5156c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_16.mat using Guid(e442faa0dbf483c4ca6d09db3a5156c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a626c2f280ddd501f0d947d675010b7f') in 0.013227 seconds
-  Import took 0.016298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/Simple Garage/Materials/_DimGray_.mat
-  artifactKey: Guid(633f4506cfcc7e042bbfccb06cefec4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_DimGray_.mat using Guid(633f4506cfcc7e042bbfccb06cefec4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bc842f11a31456c9f38c9023df70b9') in 0.038474 seconds
-  Import took 0.041362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000658 seconds.
-  path: Assets/Simple Garage/Materials/_6.mat
-  artifactKey: Guid(592e40746ca9cf944839b21915d3e414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_6.mat using Guid(592e40746ca9cf944839b21915d3e414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba9f7ae6df250ff077d124c26399803') in 0.025472 seconds
-  Import took 0.029318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000723 seconds.
-  path: Assets/Simple Garage/Models/Drill Bits.002.fbx
-  artifactKey: Guid(a888387dbf4b8ad4bab40d1b748343ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Drill Bits.002.fbx using Guid(a888387dbf4b8ad4bab40d1b748343ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6ee8501f76acb9fd127331ed46044a') in 0.063078 seconds
-  Import took 0.066896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Kenney Assets/Furniture Pack/Models/Materials/_defaultMat.mat
-  artifactKey: Guid(77a312fffc9e7f34b892aef1bf762b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kenney Assets/Furniture Pack/Models/Materials/_defaultMat.mat using Guid(77a312fffc9e7f34b892aef1bf762b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ab6b99b1f67715d43391b10bf716ed') in 0.036133 seconds
-  Import took 0.039466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Simple Garage/Models/White suitcase.002.fbx
-  artifactKey: Guid(ed717cf5527eff748ace6df57db2e2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/White suitcase.002.fbx using Guid(ed717cf5527eff748ace6df57db2e2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc084cfbd825d4b4b19c26a0b21ccc1') in 0.117384 seconds
-  Import took 0.120577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Simple Garage/Models/Drill Bits.001.fbx
-  artifactKey: Guid(837a64de2d8101645bffba32c0c91cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Drill Bits.001.fbx using Guid(837a64de2d8101645bffba32c0c91cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ceed2e286d4bbe71b996a4eb9f06c1') in 0.054128 seconds
-  Import took 0.057517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Simple Garage/Materials/[Color_D03].001.mat
-  artifactKey: Guid(e8d3acfcf45369b47984c04d0b7bebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color_D03].001.mat using Guid(e8d3acfcf45369b47984c04d0b7bebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29a4c191aa6ae5b850f878ad3b3b112') in 0.024576 seconds
-  Import took 0.027671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000651 seconds.
-  path: Assets/Simple Garage/Models/Drill Bits.fbx
-  artifactKey: Guid(1e411d3e5babd7941aeb58230965174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Drill Bits.fbx using Guid(1e411d3e5babd7941aeb58230965174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df35b1e434c6efd39eab584ce4ca5d0b') in 0.060077 seconds
-  Import took 0.064761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Simple Garage/Models/Between locker.fbx
-  artifactKey: Guid(64435e7526de49842977ce7a807578f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Between locker.fbx using Guid(64435e7526de49842977ce7a807578f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a63e3d16ce0c10a5105f9e5e44503e') in 0.049020 seconds
-  Import took 0.052061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000732 seconds.
-  path: Assets/Simple Garage/Materials/[_0129_WhiteSmoke_].mat
-  artifactKey: Guid(8833c0fdc1dabeb439f07d1d19c7790f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[_0129_WhiteSmoke_].mat using Guid(8833c0fdc1dabeb439f07d1d19c7790f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c1f5bc1a514b7119399b50c42ad45d') in 0.025691 seconds
-  Import took 0.029304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Simple Garage/Models/Shelf.fbx
-  artifactKey: Guid(7316845734f527d4aaba29d50932acf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Shelf.fbx using Guid(7316845734f527d4aaba29d50932acf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fad3ee55ddf3510b3073e7aacb490c') in 0.264393 seconds
-  Import took 0.267633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Simple Garage/Materials/[Color B05]11.mat
-  artifactKey: Guid(f4623970be968b642b5426c74459ad83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color B05]11.mat using Guid(f4623970be968b642b5426c74459ad83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7314d8ef4dd784cb4b1c2c8f70dcd1') in 0.025283 seconds
-  Import took 0.028013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000566 seconds.
-  path: Assets/Simple Garage/Models/Table.fbx
-  artifactKey: Guid(3434c0b847ea9854cbf6ca7ed69f8a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Table.fbx using Guid(3434c0b847ea9854cbf6ca7ed69f8a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafc10a1f9f6ba3674a785ebebcc5680') in 0.098057 seconds
-  Import took 0.101931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Simple Garage/Materials/_ForestGreen_.mat
-  artifactKey: Guid(282a49ee09057f44aa8fb4a71660a9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_ForestGreen_.mat using Guid(282a49ee09057f44aa8fb4a71660a9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab828153cca6a8ced6995adc35d1d7fa') in 0.042488 seconds
-  Import took 0.045122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Simple Garage/Materials/_Brown_.mat
-  artifactKey: Guid(4edab6e8f5452fc419febcf79e0fe4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_Brown_.mat using Guid(4edab6e8f5452fc419febcf79e0fe4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346085ab6222ef42560298566b30be42') in 0.041656 seconds
-  Import took 0.044729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Simple Garage/Models/Round Drill Bits.fbx
-  artifactKey: Guid(b8271f886ab9c5b4192fef211129c257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Round Drill Bits.fbx using Guid(b8271f886ab9c5b4192fef211129c257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a10574c76f36e386bb7757a21cdcf2') in 0.050039 seconds
-  Import took 0.052833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Simple Garage/Materials/[Color_006].mat
-  artifactKey: Guid(edec75fe48008b14a8c365b20463bc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color_006].mat using Guid(edec75fe48008b14a8c365b20463bc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b50ca87f182980c7fa2a942394b83c0') in 0.031245 seconds
-  Import took 0.034107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Simple Garage/Models/Bench Grinder.fbx
-  artifactKey: Guid(20cc8b5b259c1ce4bbaf0889d74e395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Bench Grinder.fbx using Guid(20cc8b5b259c1ce4bbaf0889d74e395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f7d74f2f63978f4dcd7e6312611f6e') in 0.153110 seconds
-  Import took 0.156447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Simple Garage/Materials/[Color A08]7.mat
-  artifactKey: Guid(1ff404bc24c6a784c99c612c29d52066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color A08]7.mat using Guid(1ff404bc24c6a784c99c612c29d52066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9bc02f075868639480e09cfbfb9651') in 0.025382 seconds
-  Import took 0.029673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000524 seconds.
-  path: Assets/Simple Garage/Models/Drilling machine.fbx
-  artifactKey: Guid(90c9e6438ec56844bab86842983559bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Drilling machine.fbx using Guid(90c9e6438ec56844bab86842983559bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06261867f6ab8aca198573dd939ab7ac') in 0.313554 seconds
-  Import took 0.316834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Simple Garage/Materials/[Color_A01].mat
-  artifactKey: Guid(04497a13553e04046aa5be6e84c08ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color_A01].mat using Guid(04497a13553e04046aa5be6e84c08ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b3597c36d49082c64558a10bcd0f59') in 0.048344 seconds
-  Import took 0.052188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Simple Garage/Models/Saw.fbx
-  artifactKey: Guid(bc7f2b2496b7d5e42aeff231458e580d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Saw.fbx using Guid(bc7f2b2496b7d5e42aeff231458e580d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f5990dda09f38fff5b51bf1ff64204') in 0.410641 seconds
-  Import took 0.414848 seconds .
+  Time since last request: 0.000342 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/BR_Tile_01.mat
+  artifactKey: Guid(aae18af11f5af9d43bb55831bba0ae8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/BR_Tile_01.mat using Guid(aae18af11f5af9d43bb55831bba0ae8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163a9d021160643c82e346108a78e31f') in 0.064500 seconds
+  Import took 0.067709 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000305 seconds.
-  path: Assets/Simple Garage/Materials/_Gray Glass_.mat
-  artifactKey: Guid(8f75634a104480a4d8122b5b4435a38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_Gray Glass_.mat using Guid(8f75634a104480a4d8122b5b4435a38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908ce38be6c176499da391007f7f021a') in 0.038015 seconds
-  Import took 0.040639 seconds .
+  path: Assets/FurnishedCabin/Meshes/Materials/BedroomFurniture_MAT.mat
+  artifactKey: Guid(bbff17a888fc93a408a34e3b95c5e885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Materials/BedroomFurniture_MAT.mat using Guid(bbff17a888fc93a408a34e3b95c5e885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ed0e30065647b36aea36ee6f951a33') in 0.588656 seconds
+  Import took 0.591714 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Simple Garage/Materials/[Color_B01].mat
-  artifactKey: Guid(f2830af80c5ff224aa28e506d21cb9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color_B01].mat using Guid(f2830af80c5ff224aa28e506d21cb9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca01a9a56b6c4e40fd61937e9cff68e2') in 0.029316 seconds
-  Import took 0.032358 seconds .
+  Time since last request: 0.000321 seconds.
+  path: Assets/Simple Garage/Materials/blue light.mat
+  artifactKey: Guid(15e08cb328ceee642a65284046b295fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/blue light.mat using Guid(15e08cb328ceee642a65284046b295fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36842ffdff1006069810dd343d2739eb') in 0.100984 seconds
+  Import took 0.103522 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Simple Garage/Materials/2K-tiling_44_basecolor.mat
-  artifactKey: Guid(1d0c85a40adbb0e41be6404db12b98c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/2K-tiling_44_basecolor.mat using Guid(1d0c85a40adbb0e41be6404db12b98c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b790a05240d0c3b3570df7c64af33b46') in 0.259375 seconds
-  Import took 0.262539 seconds .
+  Time since last request: 0.000323 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Brick mute 02.mat
+  artifactKey: Guid(099e69089d2c47044b06273bff53533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Brick mute 02.mat using Guid(099e69089d2c47044b06273bff53533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da68f218c7066d2d02121c970e725093') in 0.128696 seconds
+  Import took 0.131320 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Adler Dark Wood.mat
-  artifactKey: Guid(2149baccf21e31043a0e66c87a72bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Adler Dark Wood.mat using Guid(2149baccf21e31043a0e66c87a72bfcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1d09414fb67821eebb083681ef32d8') in 0.063176 seconds
-  Import took 0.067128 seconds .
+  Time since last request: 0.000342 seconds.
+  path: Assets/Simple Garage/Materials/body.mat
+  artifactKey: Guid(cfa013396b64c1a43af405a116941549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/body.mat using Guid(cfa013396b64c1a43af405a116941549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f858e4a60481ebf5eac77c234a4b522') in 0.021987 seconds
+  Import took 0.025770 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Simple Garage/Models/Camouflage suitcase with relief.fbx
-  artifactKey: Guid(e5c2a75ffe7427a4d92ae1a6dc53c2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Camouflage suitcase with relief.fbx using Guid(e5c2a75ffe7427a4d92ae1a6dc53c2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e4104a3a759c56d5a94dcfd27973b4') in 0.123513 seconds
-  Import took 0.126310 seconds .
+  Time since last request: 0.001066 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Building Floor Tile.mat
+  artifactKey: Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Building Floor Tile.mat using Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5666367a3ea3b08489dbbc60505a449e') in 0.809417 seconds
+  Import took 0.813640 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Simple Garage/Models/Drill bits Lying.fbx
-  artifactKey: Guid(74efa1a00e4a4474fbd004e81c5ee237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Drill bits Lying.fbx using Guid(74efa1a00e4a4474fbd004e81c5ee237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cf793d07f062c8d638de1261513dee') in 0.047684 seconds
-  Import took 0.050586 seconds .
+  Time since last request: 0.000310 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Gold.mat
+  artifactKey: Guid(84a1ffeca40e4c6439b0a1f93b4d287c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Gold.mat using Guid(84a1ffeca40e4c6439b0a1f93b4d287c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabfaa3d88dc74407225c702a4153152') in 0.212096 seconds
+  Import took 0.214687 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Simple Garage/Models/White suitcase.001.fbx
-  artifactKey: Guid(8e014b5c76aeed444b3aa92be71ef533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/White suitcase.001.fbx using Guid(8e014b5c76aeed444b3aa92be71ef533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455666a84feadb73bc000947c3f94c7e') in 0.081592 seconds
-  Import took 0.084410 seconds .
+  Time since last request: 0.000350 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Antique.mat
+  artifactKey: Guid(4a3c4e9ae9b122e449659fdb803fb1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Antique.mat using Guid(4a3c4e9ae9b122e449659fdb803fb1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b076626fbaa2e11141a4ecbd83d9d01f') in 0.436779 seconds
+  Import took 0.439422 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Simple Garage/Materials/_Charcoal_.mat
-  artifactKey: Guid(9d6913bc815c98847b3f5446ba52a72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_Charcoal_.mat using Guid(9d6913bc815c98847b3f5446ba52a72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450ed0e746cb668a6a96a8320f280538') in 0.035943 seconds
-  Import took 0.038736 seconds .
+  Time since last request: 0.000371 seconds.
+  path: Assets/FurnishedCabin/Meshes/Materials/Bathroom_Oven_MAT.mat
+  artifactKey: Guid(20e170f662817d44383bf29029741cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Materials/Bathroom_Oven_MAT.mat using Guid(20e170f662817d44383bf29029741cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c0b1b6e3701d01ab4b4708be0133f0') in 1.020823 seconds
+  Import took 1.024515 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Simple Garage/Models/Machinery parts.brake disc.fbx
-  artifactKey: Guid(19448b809c61d0c4b9c99cfd024468f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Machinery parts.brake disc.fbx using Guid(19448b809c61d0c4b9c99cfd024468f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a680d8efe13cf5923bbf1a55f60b88b') in 0.097916 seconds
-  Import took 0.100516 seconds .
+  Time since last request: 0.000293 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Chrome.mat
+  artifactKey: Guid(4580dd49916b3c542b97109c8ca425f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Chrome.mat using Guid(4580dd49916b3c542b97109c8ca425f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05b8d6f23567bcc572cf2d662647fa5') in 0.091908 seconds
+  Import took 0.094499 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 164.005078 seconds.
-  path: Assets/VR360/Materials360/Puntero/New Material.mat
-  artifactKey: Guid(c18b45cf4e0b2a048bad48d152149ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Puntero/New Material.mat using Guid(c18b45cf4e0b2a048bad48d152149ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6b76e58774ee8b98647e84cd31aa46') in 0.016273 seconds
-  Import took 0.020725 seconds .
+  Time since last request: 0.000338 seconds.
+  path: Assets/Simple Garage/Models/Machinery parts.Shock Absorber.fbx
+  artifactKey: Guid(590bc76de0fd52e48ba7be1edb36a5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Models/Machinery parts.Shock Absorber.fbx using Guid(590bc76de0fd52e48ba7be1edb36a5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb3ce0f719b34be3535ee0357e32c2d') in 1.148837 seconds
+  Import took 1.151516 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 84.893726 seconds.
-  path: Assets/VR360/Materials360/Puntero/1.png
-  artifactKey: Guid(d1fccdcaf8c7bd44992f27e8fe56fd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Puntero/1.png using Guid(d1fccdcaf8c7bd44992f27e8fe56fd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf84a1c3f62e1bea93f885867bb99968') in 0.027819 seconds
-  Import took 0.032495 seconds .
+  Time since last request: 0.000324 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Burlap_01.mat
+  artifactKey: Guid(4c3e122e15d5d984083bffaa2d094ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Burlap_01.mat using Guid(4c3e122e15d5d984083bffaa2d094ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3aedd7de526cf7b960d4127000a4ccc') in 0.563166 seconds
+  Import took 0.565641 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006568 seconds.
-  path: Assets/VR360/Materials360/Puntero/1.png
-  artifactKey: Guid(d1fccdcaf8c7bd44992f27e8fe56fd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Puntero/1.png using Guid(d1fccdcaf8c7bd44992f27e8fe56fd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf84a1c3f62e1bea93f885867bb99968') in 0.010432 seconds
-  Import took 0.016104 seconds .
+  Time since last request: 0.000325 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Antique.mat
+  artifactKey: Guid(5f469581b50505747a410deecdf8f11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Antique.mat using Guid(5f469581b50505747a410deecdf8f11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ca152b9403c74b5296f37f2a0dd23a') in 0.070995 seconds
+  Import took 0.074179 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 105.047716 seconds.
-  path: Assets/VR360/Materials360/Puntero/2.png
-  artifactKey: Guid(4946c12a0a14c8d4eb98cb9c30319c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Puntero/2.png using Guid(4946c12a0a14c8d4eb98cb9c30319c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3526f710448b7e53d279fbeb450f92') in 0.062475 seconds
-  Import took 0.067088 seconds .
+  Time since last request: 0.000265 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Black.mat
+  artifactKey: Guid(4cd790ac0d37bdc46970f6688c6b5070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Black.mat using Guid(4cd790ac0d37bdc46970f6688c6b5070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1080c6a08838a1c76ebb7e85c5731eb3') in 0.136045 seconds
+  Import took 0.140042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Brass.mat
+  artifactKey: Guid(b9c5d6ba92c526a43991da07d41229bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Brass.mat using Guid(b9c5d6ba92c526a43991da07d41229bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee36f3aa6d9e721c008f9282c6dd3335') in 0.028643 seconds
+  Import took 0.031569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Cabinets_01.mat
+  artifactKey: Guid(5bdd1af6958bd9143a8bc920d98238b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Cabinets_01.mat using Guid(5bdd1af6958bd9143a8bc920d98238b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ab672308bb0da717e46c36c7336b4c') in 0.084963 seconds
+  Import took 0.087999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/FurnishedCabin/Meshes/Materials/BuildingB_MAT.mat
+  artifactKey: Guid(675e6ce36fc642b48ae4d1d5d0c7cfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Materials/BuildingB_MAT.mat using Guid(675e6ce36fc642b48ae4d1d5d0c7cfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc23fab8c7490cb38ba626b4bae9bc02') in 0.427904 seconds
+  Import took 0.431124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Cabinets_02.mat
+  artifactKey: Guid(8065c96d5d4286e4987cd02652878015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Cabinets_02.mat using Guid(8065c96d5d4286e4987cd02652878015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1395f905248212cca20cedc80eda2cea') in 0.086386 seconds
+  Import took 0.089083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Simple Garage/Materials/Black-4.mat
+  artifactKey: Guid(32c330ba2dea66c49a868b2037522165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Black-4.mat using Guid(32c330ba2dea66c49a868b2037522165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0adbd7d1f7b7ac683ae82781c878528') in 0.043842 seconds
+  Import took 0.047256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Simple Garage/Models/Machinery parts.mirror.fbx
+  artifactKey: Guid(681be740132a8364fb1e414a4988c47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Models/Machinery parts.mirror.fbx using Guid(681be740132a8364fb1e414a4988c47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bebc37dcb00de27983db152856b505') in 0.167540 seconds
+  Import took 0.170319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 544.281890 seconds.
+  path: Assets/VR360/Materials360/Iconos360
+  artifactKey: Guid(237e33255a744394984754185495ba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/Iconos360 using Guid(237e33255a744394984754185495ba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6e48b1eea8111fb925d4bc698b4b8f') in 0.011433 seconds
+  Import took 0.014738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.114356 seconds.
+  path: Assets/VR360/Materials360/Iconos360/Flecha.png
+  artifactKey: Guid(3d96ea0028fb25f498468a5c9b32fe7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/Iconos360/Flecha.png using Guid(3d96ea0028fb25f498468a5c9b32fe7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23c0b7ab46e207d15c335dcc9eba43a') in 0.182265 seconds
+  Import took 0.185542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/VR360/Materials360/Iconos360/IconoCasaGran.png
+  artifactKey: Guid(f80c4f2bc859e0043924eeccbd69b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/Iconos360/IconoCasaGran.png using Guid(f80c4f2bc859e0043924eeccbd69b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7215f141fd679fc5a5a63bd967084da5') in 0.020688 seconds
+  Import took 0.023254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/VR360/Materials360/Iconos360/IconoCasaPeq.png
+  artifactKey: Guid(dc4e61df707c3af42bdcc70309cf5614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/Iconos360/IconoCasaPeq.png using Guid(dc4e61df707c3af42bdcc70309cf5614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11ca68f5d998ce6c7112e923e7d6189') in 0.011638 seconds
+  Import took 0.014159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3245.631432 seconds.
+  path: Assets/VR360/Materials360/IconoCasaPeq.mat
+  artifactKey: Guid(6acc6d87a52f3cc44bead54ea8e1521c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/IconoCasaPeq.mat using Guid(6acc6d87a52f3cc44bead54ea8e1521c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6c6f6319d7da1f82fbefb5c02f0d42') in 0.016403 seconds
+  Import took 0.019959 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004093 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.064 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1890.
-Total: 2.447600 ms (FindLiveObjects: 0.220000 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.100900 ms  DeleteObjects: 0.063900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 420.368791 seconds.
-  path: Assets/VR360/Materials360/CambioSce.mat
-  artifactKey: Guid(f19232c666fd79e4cb235a686704011f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/CambioSce.mat using Guid(f19232c666fd79e4cb235a686704011f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32a4a5fc00a4e84b1c63da274a46c82') in 0.085076 seconds
-  Import took 0.088458 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007619 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.778 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.7 MB.
-System memory in use after: 70.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1894.
-Total: 2.652300 ms (FindLiveObjects: 0.199300 ms CreateObjectMapping: 0.063300 ms MarkObjects: 2.323900 ms  DeleteObjects: 0.064500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004206 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.989 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.8 MB.
-System memory in use after: 70.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1897.
-Total: 2.382800 ms (FindLiveObjects: 0.190600 ms CreateObjectMapping: 0.048600 ms MarkObjects: 2.081900 ms  DeleteObjects: 0.060700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.288289 seconds.
+Registered in 0.004675 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.135 seconds
+- Completed reload, in  0.982 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.8 MB.
-System memory in use after: 70.8 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1900.
-Total: 2.282100 ms (FindLiveObjects: 0.161500 ms CreateObjectMapping: 0.041800 ms MarkObjects: 2.021400 ms  DeleteObjects: 0.056600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 7386.815097 seconds.
-  path: Assets/VR360/Materials360/Img360
-  artifactKey: Guid(460b0ac8f0c319c4dab572f9462258c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Img360 using Guid(460b0ac8f0c319c4dab572f9462258c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceeb295cebc48322644e9ec6f9a713ef') in 0.022909 seconds
-  Import took 0.026061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.968111 seconds.
-  path: Assets/VR360/Fotos360/2-Casa-Peq-Ex
-  artifactKey: Guid(55f556cf6bb1ee84cb41f3a2a7dc46fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/2-Casa-Peq-Ex using Guid(55f556cf6bb1ee84cb41f3a2a7dc46fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920394f59ba70ac89f523ec66ec295e7') in 0.008506 seconds
-  Import took 0.012780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.121300 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq
-  artifactKey: Guid(dac0c4d50a09bc94eb8626a747a92fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq using Guid(dac0c4d50a09bc94eb8626a747a92fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a02ed09dba1b548d32948fb7b069b4') in 0.007868 seconds
-  Import took 0.011151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.428177 seconds.
-  path: Assets/VR360/Materials360/1-Casa-Peq
-  artifactKey: Guid(74d02b25305ab084cbc5a9aeb5416634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/1-Casa-Peq using Guid(74d02b25305ab084cbc5a9aeb5416634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf39c6943868d93c01946a4e16b33bf4') in 0.005222 seconds
-  Import took 0.008094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.414480 seconds.
-  path: Assets/VR360/Materials360/Casa-Peq
-  artifactKey: Guid(74d02b25305ab084cbc5a9aeb5416634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Casa-Peq using Guid(74d02b25305ab084cbc5a9aeb5416634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937739275209097f1186009a283ec4ac') in 0.009133 seconds
-  Import took 0.013507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.760813 seconds.
-  path: Assets/VR360/Materials360/CambioSce.mat
-  artifactKey: Guid(f19232c666fd79e4cb235a686704011f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/CambioSce.mat using Guid(f19232c666fd79e4cb235a686704011f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7331337b0de310f9fa02134ca18b2911') in 0.930116 seconds
-  Import took 0.933593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.751357 seconds.
-  path: Assets/VR360/Materials360/Casa-Peq/Entrada 1.mat
-  artifactKey: Guid(edfb3a3690814984380e1e5d723f6794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Casa-Peq/Entrada 1.mat using Guid(edfb3a3690814984380e1e5d723f6794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9892abce35a4ab5cae768b58c4b5a9ca') in 0.309987 seconds
-  Import took 0.313819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.959433 seconds.
-  path: Assets/VR360/Materials360/Casa-Peq/Entrada.mat
-  artifactKey: Guid(edfb3a3690814984380e1e5d723f6794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Casa-Peq/Entrada.mat using Guid(edfb3a3690814984380e1e5d723f6794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af31282d1d48c686327fca7f344a99f') in 0.055478 seconds
-  Import took 0.059218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.385957 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/1-Entrada.jpg
-  artifactKey: Guid(e62fac306e6e67742bbadc87f1ad6c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/1-Entrada.jpg using Guid(e62fac306e6e67742bbadc87f1ad6c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b83e18a7e3c16c2181b55541cb991fd') in 0.292687 seconds
-  Import took 0.296195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/12-Cuarto2.jpg
-  artifactKey: Guid(41b325d029b20134ca6bcaf7503e5d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/12-Cuarto2.jpg using Guid(41b325d029b20134ca6bcaf7503e5d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6543c3a5a1c6f4c8fec9c637dbedcb3') in 0.039945 seconds
-  Import took 0.042587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/4-Banio-abj.jpg
-  artifactKey: Guid(6c0cf898e238dd64984281187685c44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/4-Banio-abj.jpg using Guid(6c0cf898e238dd64984281187685c44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5fc2cbb6966237b84259ff40f2ddfd') in 0.011624 seconds
-  Import took 0.014911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/7-Patio3.jpg
-  artifactKey: Guid(4989bc08201570b4c926616457cc342d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/7-Patio3.jpg using Guid(4989bc08201570b4c926616457cc342d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60143127d4c0ddfa522cc2c5dda833db') in 0.236694 seconds
-  Import took 0.240160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/8-Patio4.jpg
-  artifactKey: Guid(7a1f597b8c78e284e80a80818af2731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/8-Patio4.jpg using Guid(7a1f597b8c78e284e80a80818af2731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1eaf802aee0a6c78bf03b041ac74059') in 0.014228 seconds
-  Import took 0.016833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/5-Patio1.jpg
-  artifactKey: Guid(110ed6bff432dd346b0e9b8c91ecc6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/5-Patio1.jpg using Guid(110ed6bff432dd346b0e9b8c91ecc6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a9f1b65c2f658638a373e1f72f8236') in 0.749661 seconds
-  Import took 0.752672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/3-Comedor.jpg
-  artifactKey: Guid(142680e38f52abb45aa007db5cb93bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/3-Comedor.jpg using Guid(142680e38f52abb45aa007db5cb93bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a687651c44f69e0b3fafe87ac4a6e05') in 0.014129 seconds
-  Import took 0.017096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/6-Patio2.jpg
-  artifactKey: Guid(3c9bd2349a5c140468423312316db942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/6-Patio2.jpg using Guid(3c9bd2349a5c140468423312316db942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d49e598c7714d41c82547684694df2') in 0.019598 seconds
-  Import took 0.023377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001493 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/2-Sala.jpg
-  artifactKey: Guid(203eecc4d65bd2e4d99caae2ee09f34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/2-Sala.jpg using Guid(203eecc4d65bd2e4d99caae2ee09f34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490c264fa0707a9799dbba6d5108791c') in 0.034906 seconds
-  Import took 0.038642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/9-Escaleras1.jpg
-  artifactKey: Guid(1d1fa2ee99f1e8d4ab2ce7a5ad885a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/9-Escaleras1.jpg using Guid(1d1fa2ee99f1e8d4ab2ce7a5ad885a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5a1076c76ec99f0ee5937c9bc527c1') in 0.030759 seconds
-  Import took 0.033529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/15-Cuarto3.jpg
-  artifactKey: Guid(47124d8cbbc892c4e868ea638bf7ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/15-Cuarto3.jpg using Guid(47124d8cbbc892c4e868ea638bf7ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2a7a98f94f2603f53bfc91be2ba4d7') in 0.016926 seconds
-  Import took 0.020790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000499 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/14-Banio-Arr.jpg
-  artifactKey: Guid(9b5887b15037b1a4a95b518fc39af4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/14-Banio-Arr.jpg using Guid(9b5887b15037b1a4a95b518fc39af4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa811a2494d87296c1af69174be45bf2') in 0.024700 seconds
-  Import took 0.028102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/13-Pasillo-Arr.jpg
-  artifactKey: Guid(ae9a8fe2d1356b04397e3f754f8d36ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/13-Pasillo-Arr.jpg using Guid(ae9a8fe2d1356b04397e3f754f8d36ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be79911c0d8f8940743c981248d541e0') in 0.016463 seconds
-  Import took 0.020376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/11-Cuarto1.jpg
-  artifactKey: Guid(bb4fc433f0194384cb553fa740ab21c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/11-Cuarto1.jpg using Guid(bb4fc433f0194384cb553fa740ab21c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cccf29f47952841da08cdd92952b68') in 0.017135 seconds
-  Import took 0.020840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000854 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/10-Escaleras2.jpg
-  artifactKey: Guid(a08fd7121ccb0504c9d03fd66848030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/10-Escaleras2.jpg using Guid(a08fd7121ccb0504c9d03fd66848030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9e19a1bad1d69316e3f149a777cd3f') in 0.025227 seconds
-  Import took 0.028348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.675540 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/1-Entrada.jpg
-  artifactKey: Guid(e62fac306e6e67742bbadc87f1ad6c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/1-Entrada.jpg using Guid(e62fac306e6e67742bbadc87f1ad6c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1234d73c6146c9d878200bde2920c706') in 0.028580 seconds
-  Import took 0.032594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/12-Cuarto2.jpg
-  artifactKey: Guid(41b325d029b20134ca6bcaf7503e5d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/12-Cuarto2.jpg using Guid(41b325d029b20134ca6bcaf7503e5d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26f284feeeaadf4e62d835792b2f4c6') in 0.073361 seconds
-  Import took 0.076654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000598 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/4-Banio-abj.jpg
-  artifactKey: Guid(6c0cf898e238dd64984281187685c44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/4-Banio-abj.jpg using Guid(6c0cf898e238dd64984281187685c44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d6a4a64a7c62a05b5ef3e5f2ae13be') in 0.127320 seconds
-  Import took 0.130537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/7-Patio3.jpg
-  artifactKey: Guid(4989bc08201570b4c926616457cc342d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/7-Patio3.jpg using Guid(4989bc08201570b4c926616457cc342d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f386dfc6a389b5dbda148e255e1ba42d') in 0.028570 seconds
-  Import took 0.033336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/8-Patio4.jpg
-  artifactKey: Guid(7a1f597b8c78e284e80a80818af2731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/8-Patio4.jpg using Guid(7a1f597b8c78e284e80a80818af2731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8faa4961d5fb5abd2deb966f66fac77f') in 0.027083 seconds
-  Import took 0.029974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/5-Patio1.jpg
-  artifactKey: Guid(110ed6bff432dd346b0e9b8c91ecc6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/5-Patio1.jpg using Guid(110ed6bff432dd346b0e9b8c91ecc6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c673d6fd7db7306905e1abd0e2506ed') in 0.027280 seconds
-  Import took 0.030141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/3-Comedor.jpg
-  artifactKey: Guid(142680e38f52abb45aa007db5cb93bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/3-Comedor.jpg using Guid(142680e38f52abb45aa007db5cb93bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949a41efeac2a855b33d6ede8c8e8027') in 0.069523 seconds
-  Import took 0.072272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/6-Patio2.jpg
-  artifactKey: Guid(3c9bd2349a5c140468423312316db942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/6-Patio2.jpg using Guid(3c9bd2349a5c140468423312316db942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3554063924c4eb8b319d45c850041887') in 0.024427 seconds
-  Import took 0.027183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/2-Sala.jpg
-  artifactKey: Guid(203eecc4d65bd2e4d99caae2ee09f34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/2-Sala.jpg using Guid(203eecc4d65bd2e4d99caae2ee09f34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328a6dd37228070a9395e5426d26bff3') in 0.023423 seconds
-  Import took 0.027267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/9-Escaleras1.jpg
-  artifactKey: Guid(1d1fa2ee99f1e8d4ab2ce7a5ad885a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/9-Escaleras1.jpg using Guid(1d1fa2ee99f1e8d4ab2ce7a5ad885a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a08808831bbb8aa7624ed2e0b09d3a') in 0.065036 seconds
-  Import took 0.068418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/15-Cuarto3.jpg
-  artifactKey: Guid(47124d8cbbc892c4e868ea638bf7ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/15-Cuarto3.jpg using Guid(47124d8cbbc892c4e868ea638bf7ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2571b632df770d1b64f2f0a46c457b57') in 0.022953 seconds
-  Import took 0.026600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/14-Banio-Arr.jpg
-  artifactKey: Guid(9b5887b15037b1a4a95b518fc39af4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/14-Banio-Arr.jpg using Guid(9b5887b15037b1a4a95b518fc39af4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7484b29c78a4770f3cc1888f148321') in 0.022177 seconds
-  Import took 0.026140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/13-Pasillo-Arr.jpg
-  artifactKey: Guid(ae9a8fe2d1356b04397e3f754f8d36ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/13-Pasillo-Arr.jpg using Guid(ae9a8fe2d1356b04397e3f754f8d36ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef80fb8da9005df223df7656439adf0d') in 0.052308 seconds
-  Import took 0.063569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001368 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/11-Cuarto1.jpg
-  artifactKey: Guid(bb4fc433f0194384cb553fa740ab21c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/11-Cuarto1.jpg using Guid(bb4fc433f0194384cb553fa740ab21c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c441153a8b4eca95cf3904e565961a1') in 0.021005 seconds
-  Import took 0.030433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001068 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/10-Escaleras2.jpg
-  artifactKey: Guid(a08fd7121ccb0504c9d03fd66848030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/10-Escaleras2.jpg using Guid(a08fd7121ccb0504c9d03fd66848030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64687c40de93dd5cfb5519e1a18c731b') in 0.019581 seconds
-  Import took 0.022776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 58.482603 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/1-Entrada-Peq.jpg
-  artifactKey: Guid(e62fac306e6e67742bbadc87f1ad6c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/1-Entrada-Peq.jpg using Guid(e62fac306e6e67742bbadc87f1ad6c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa7168e8138c3829d6f5a4f995766ab') in 0.034597 seconds
-  Import took 0.042309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.000146 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/2-Sala-Peq.jpg
-  artifactKey: Guid(203eecc4d65bd2e4d99caae2ee09f34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/2-Sala-Peq.jpg using Guid(203eecc4d65bd2e4d99caae2ee09f34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2ead964bc851a06d2914419a0c7e23') in 0.035992 seconds
-  Import took 0.039349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.918969 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/3-Comedor-Peq.jpg
-  artifactKey: Guid(142680e38f52abb45aa007db5cb93bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/3-Comedor-Peq.jpg using Guid(142680e38f52abb45aa007db5cb93bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be70f2c1b33ac03a65d7a7c17294979') in 0.023234 seconds
-  Import took 0.029938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.118533 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/4-Banio-abj-Peq.jpg
-  artifactKey: Guid(6c0cf898e238dd64984281187685c44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/4-Banio-abj-Peq.jpg using Guid(6c0cf898e238dd64984281187685c44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3267ce14051f2f4daed7bb7278b6fe71') in 0.029968 seconds
-  Import took 0.035022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.128133 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/5-Patio1-Peq.jpg
-  artifactKey: Guid(110ed6bff432dd346b0e9b8c91ecc6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/5-Patio1-Peq.jpg using Guid(110ed6bff432dd346b0e9b8c91ecc6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d87afea91bc30efe0ff856cdd8c17b') in 0.027522 seconds
-  Import took 0.032275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.122651 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/6-Patio2-Peq.jpg
-  artifactKey: Guid(3c9bd2349a5c140468423312316db942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/6-Patio2-Peq.jpg using Guid(3c9bd2349a5c140468423312316db942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81321988fa341ffbc7ec1f61dbf6533b') in 0.025097 seconds
-  Import took 0.031009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.175929 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/7-Patio3-Peq.jpg
-  artifactKey: Guid(4989bc08201570b4c926616457cc342d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/7-Patio3-Peq.jpg using Guid(4989bc08201570b4c926616457cc342d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807d5ac79109c601fcf32c517c20cfad') in 0.031916 seconds
-  Import took 0.036701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.527308 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/8-Patio4-Peq.jpg
-  artifactKey: Guid(7a1f597b8c78e284e80a80818af2731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/8-Patio4-Peq.jpg using Guid(7a1f597b8c78e284e80a80818af2731f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc4e3b7c71ea64477c9bd85060519c6') in 0.043333 seconds
-  Import took 0.050621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.230607 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/9-Escaleras1-Peq.jpg
-  artifactKey: Guid(1d1fa2ee99f1e8d4ab2ce7a5ad885a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/9-Escaleras1-Peq.jpg using Guid(1d1fa2ee99f1e8d4ab2ce7a5ad885a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb699f5c9fc4e022aebed02f8f92ef4') in 0.027520 seconds
-  Import took 0.036246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.325185 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/10-Escaleras2-Peq.jpg
-  artifactKey: Guid(a08fd7121ccb0504c9d03fd66848030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/10-Escaleras2-Peq.jpg using Guid(a08fd7121ccb0504c9d03fd66848030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4f3a06a487855414ffdf6a5d19e706') in 0.021295 seconds
-  Import took 0.025826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.191458 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/11-Cuarto1-Peq.jpg
-  artifactKey: Guid(bb4fc433f0194384cb553fa740ab21c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/11-Cuarto1-Peq.jpg using Guid(bb4fc433f0194384cb553fa740ab21c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abea68ee2369b779fea50956ad4cffa8') in 0.021482 seconds
-  Import took 0.025180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.861728 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/12-Cuarto2-Peq.jpg
-  artifactKey: Guid(41b325d029b20134ca6bcaf7503e5d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/12-Cuarto2-Peq.jpg using Guid(41b325d029b20134ca6bcaf7503e5d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74aa37f7a6c3140bad11a77806990ffb') in 0.026684 seconds
-  Import took 0.032344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.158141 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/13-Pasillo-Arr-Peq.jpg
-  artifactKey: Guid(ae9a8fe2d1356b04397e3f754f8d36ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/13-Pasillo-Arr-Peq.jpg using Guid(ae9a8fe2d1356b04397e3f754f8d36ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9faef64ddaf21277ea3e16f95520a6') in 0.031840 seconds
-  Import took 0.035477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.646264 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/14-Banio-Arr-Peq.jpg
-  artifactKey: Guid(9b5887b15037b1a4a95b518fc39af4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/14-Banio-Arr-Peq.jpg using Guid(9b5887b15037b1a4a95b518fc39af4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c32eae9daf77c98e6b186e7bef4ba20') in 0.028433 seconds
-  Import took 0.032645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.094198 seconds.
-  path: Assets/VR360/Fotos360/1-Casa-Peq/15-Cuarto3-Peq.jpg
-  artifactKey: Guid(47124d8cbbc892c4e868ea638bf7ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/1-Casa-Peq/15-Cuarto3-Peq.jpg using Guid(47124d8cbbc892c4e868ea638bf7ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd1e4634f84ccff73dc2d5c3b404885') in 0.071391 seconds
-  Import took 0.076947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 142.120864 seconds.
-  path: Assets/VR360/Materials360/Casa-Peq/Entrada-Peq.mat
-  artifactKey: Guid(edfb3a3690814984380e1e5d723f6794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Casa-Peq/Entrada-Peq.mat using Guid(edfb3a3690814984380e1e5d723f6794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5e5be58989c96e963a3cec49c06a72') in 0.059935 seconds
-  Import took 0.063604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.625902 seconds.
-  path: Assets/VR360/Fotos360/2-Casa-Peq-Ex/1-sala-PeqEx.jpg
-  artifactKey: Guid(b324654e37c036a4dae2dda2dde80e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/2-Casa-Peq-Ex/1-sala-PeqEx.jpg using Guid(b324654e37c036a4dae2dda2dde80e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34790cbb4d2d1326cd9a69bd70dd689d') in 0.037726 seconds
-  Import took 0.043601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.188215 seconds.
-  path: Assets/VR360/Fotos360/2-Casa-Peq-Ex/2-comedor-PeqEx.jpg
-  artifactKey: Guid(a71ffb7c386b0994a83637a7dd495ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/2-Casa-Peq-Ex/2-comedor-PeqEx.jpg using Guid(a71ffb7c386b0994a83637a7dd495ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf2566dfd5b620de3fbb79e761c6cac') in 0.038425 seconds
-  Import took 0.044869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.632256 seconds.
-  path: Assets/VR360/Fotos360/2-Casa-Peq-Ex/3-banioComedor-PeqEx.jpg
-  artifactKey: Guid(3994fb7827dba2a43a52e353dc2e027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/2-Casa-Peq-Ex/3-banioComedor-PeqEx.jpg using Guid(3994fb7827dba2a43a52e353dc2e027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6736036fb69224792699676c79b81a8') in 0.026956 seconds
-  Import took 0.034000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.954194 seconds.
-  path: Assets/VR360/Fotos360/2-Casa-Peq-Ex/4-cocina-PeqEx.jpg
-  artifactKey: Guid(80ee1229e47bee545a4462b2d7b9ebc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/2-Casa-Peq-Ex/4-cocina-PeqEx.jpg using Guid(80ee1229e47bee545a4462b2d7b9ebc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee4b9c61e058591a71e529fc7c2615b') in 0.284257 seconds
-  Import took 0.288197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.096567 seconds.
-  path: Assets/VR360/Fotos360/2-Casa-Peq-Ex/5-patio-PeqEx.jpg
-  artifactKey: Guid(1670fb668b84c6445aedc15203ed3adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/2-Casa-Peq-Ex/5-patio-PeqEx.jpg using Guid(1670fb668b84c6445aedc15203ed3adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5211619b5eeac437f9487f9f483db978') in 0.032505 seconds
-  Import took 0.036557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.142374 seconds.
-  path: Assets/VR360/Fotos360/2-Casa-Peq-Ex/6-entrada-PeqEx.jpg
-  artifactKey: Guid(13fc17f89208af24296c5968e7ab0aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/2-Casa-Peq-Ex/6-entrada-PeqEx.jpg using Guid(13fc17f89208af24296c5968e7ab0aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6796829018aa01416d535dc1ce86f1') in 0.031346 seconds
-  Import took 0.036856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.972221 seconds.
-  path: Assets/VR360/Fotos360/2-Casa-Peq-Ex/7-escaleras-PeqEx.jpg
-  artifactKey: Guid(9bbc5bc2e27dbdc469bf9739c9e4cf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/2-Casa-Peq-Ex/7-escaleras-PeqEx.jpg using Guid(9bbc5bc2e27dbdc469bf9739c9e4cf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f06b7de44462acb1f090093839d4e3') in 0.029867 seconds
-  Import took 0.035822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.589834 seconds.
-  path: Assets/VR360/Fotos360/2-Casa-Peq-Ex/8-pasilloArri1-PeqEx.jpg
-  artifactKey: Guid(b037b44c2116293448a31a781b02ffc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/2-Casa-Peq-Ex/8-pasilloArri1-PeqEx.jpg using Guid(b037b44c2116293448a31a781b02ffc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2351e95b4f7111528697569645a48bb1') in 0.129662 seconds
-  Import took 0.134925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.797890 seconds.
-  path: Assets/VR360/Fotos360/2-Casa-Peq-Ex/9-cuarto1-PeqEx.jpg
-  artifactKey: Guid(d1f1f17ad2d570544987395102216476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/2-Casa-Peq-Ex/9-cuarto1-PeqEx.jpg using Guid(d1f1f17ad2d570544987395102216476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038f2d42bdfb81865cab9b2f9b3fffde') in 0.029934 seconds
-  Import took 0.033989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.016596 seconds.
-  path: Assets/VR360/Fotos360/2-Casa-Peq-Ex/10-cuarto2-PeqEx.jpg
-  artifactKey: Guid(cda246addd16457459d5dc44c97a070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/2-Casa-Peq-Ex/10-cuarto2-PeqEx.jpg using Guid(cda246addd16457459d5dc44c97a070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad566764c8a144c4a392389dec90f8b1') in 0.030791 seconds
-  Import took 0.035169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.384681 seconds.
-  path: Assets/VR360/Fotos360/2-Casa-Peq-Ex/11-pasilloArr2-PeqEx.jpg
-  artifactKey: Guid(88c9b83bd6c36bb468fde38fc25218f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/2-Casa-Peq-Ex/11-pasilloArr2-PeqEx.jpg using Guid(88c9b83bd6c36bb468fde38fc25218f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b790e59b25dd0d8ad353b6fccd016ee') in 0.029377 seconds
-  Import took 0.033645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.046580 seconds.
-  path: Assets/VR360/Fotos360/2-Casa-Peq-Ex/12-banioArri-PeqEx.jpg
-  artifactKey: Guid(033f97ce004eac349bed488684cecbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/2-Casa-Peq-Ex/12-banioArri-PeqEx.jpg using Guid(033f97ce004eac349bed488684cecbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0231c8200073deda57dd4aaf967fc2ec') in 0.030877 seconds
-  Import took 0.034853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.724611 seconds.
-  path: Assets/VR360/Fotos360/2-Casa-Peq-Ex/13-cuarto3-PeqEx.jpg
-  artifactKey: Guid(7dee7e143d92bac4799a8e35b4873822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Fotos360/2-Casa-Peq-Ex/13-cuarto3-PeqEx.jpg using Guid(7dee7e143d92bac4799a8e35b4873822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b300c5e58509d8feafc8455c0b960e') in 0.025010 seconds
-  Import took 0.029494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.651728 seconds.
-  path: Assets/VR360/Materials360/Casa-Peq-Ex/Entrada-PeqEx.mat
-  artifactKey: Guid(586f8ab7be552ea4f88c1dfe467ea31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Casa-Peq-Ex/Entrada-PeqEx.mat using Guid(586f8ab7be552ea4f88c1dfe467ea31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dcb13b402260f3417b6d3e26881f8d') in 0.067844 seconds
-  Import took 0.072323 seconds .
+System memory in use before: 71.1 MB.
+System memory in use after: 71.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1894.
+Total: 1.937400 ms (FindLiveObjects: 0.147700 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.692000 ms  DeleteObjects: 0.051300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

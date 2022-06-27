@@ -15,11 +15,11 @@ C:/Users/Jonathan/Documents/GitHub/Franmayo/Constructora Franmayo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56096
+61380
 Successfully changed project path to: C:/Users/Jonathan/Documents/GitHub/Franmayo/Constructora Franmayo
 C:/Users/Jonathan/Documents/GitHub/Franmayo/Constructora Franmayo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,307 +35,646 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002864 seconds.
+Registered in 0.002643 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.934 seconds
+- Completed reload, in  1.880 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004513 seconds.
+Registered in 0.023663 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.541 seconds
+- Completed reload, in  1.154 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1408 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 67.2 MB.
 System memory in use after: 67.3 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1846.
-Total: 2.059500 ms (FindLiveObjects: 0.151100 ms CreateObjectMapping: 0.047800 ms MarkObjects: 1.791400 ms  DeleteObjects: 0.068000 ms)
+Total: 1.865300 ms (FindLiveObjects: 0.141600 ms CreateObjectMapping: 0.043400 ms MarkObjects: 1.616600 ms  DeleteObjects: 0.062800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/BR_Tile_01_Mod.mat
-  artifactKey: Guid(99811246d7017024d85cfa934a83345b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/BR_Tile_01_Mod.mat using Guid(99811246d7017024d85cfa934a83345b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab18e0ef23ced1ddd3cf8bfee599ab89') in 2.150056 seconds
-  Import took 2.153233 seconds .
+  path: Assets/VR360/Materials360/Iconos360/IconoCasaPeq.mat
+  artifactKey: Guid(3c6efd5ebb4e7444da08d49c5731832a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/Iconos360/IconoCasaPeq.mat using Guid(3c6efd5ebb4e7444da08d49c5731832a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71acace179c80b30089acd69e3f2dfa') in 0.190955 seconds
+  Import took 0.193512 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Brick 02.mat
-  artifactKey: Guid(3d1a06be464c4f34a858b507405a7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Brick 02.mat using Guid(3d1a06be464c4f34a858b507405a7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3156d6305fdf44aa0ff5f931af763acf') in 1.359843 seconds
-  Import took 1.362680 seconds .
+  Time since last request: 2530.340604 seconds.
+  path: Assets/VR360/Materials360/Iconos360/Iconos360dsf.png
+  artifactKey: Guid(7762bcdfa5515824da33346410281007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/Iconos360/Iconos360dsf.png using Guid(7762bcdfa5515824da33346410281007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e651e8c106c21b1a8dc9837d0a7364') in 0.127027 seconds
+  Import took 0.191695 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Brushed Chrome.mat
-  artifactKey: Guid(403f7691aae4323499829c9fc28c7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Brushed Chrome.mat using Guid(403f7691aae4323499829c9fc28c7c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b021aa67e20d669957beb83d88a632') in 0.115382 seconds
-  Import took 0.117967 seconds .
+  Time since last request: 372.254619 seconds.
+  path: Assets/VR360/Materials360/Iconos360/Iconos360t.png
+  artifactKey: Guid(19742b0225297744fb0a4b805b088c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/Iconos360/Iconos360t.png using Guid(19742b0225297744fb0a4b805b088c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2265348a68712ac017daafe9ec04d66') in 0.551665 seconds
+  Import took 0.934044 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/FurnishedCabin/Meshes/Materials/Bed_Sink_MAT.mat
-  artifactKey: Guid(a410a9048765ffe46afbbaee6e46e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FurnishedCabin/Meshes/Materials/Bed_Sink_MAT.mat using Guid(a410a9048765ffe46afbbaee6e46e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f9ad696857032b46ab5305ef2d0ae2') in 0.549359 seconds
-  Import took 0.552688 seconds .
+  Time since last request: 65.085697 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Misc/ControlPanel.mat
+  artifactKey: Guid(bf99784c0118e114c80ad5c8ca2a5b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Misc/ControlPanel.mat using Guid(bf99784c0118e114c80ad5c8ca2a5b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5ed1f22efbe3f3b4f1bfb5a5bdcf2a') in 1.359148 seconds
+  Import took 1.445942 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Simple Garage/Materials/black2.mat
-  artifactKey: Guid(ea1cc228a30b5794d8addf0bf689c990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/black2.mat using Guid(ea1cc228a30b5794d8addf0bf689c990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e19c02815b6f30c91f4fb06343f3131') in 0.073639 seconds
-  Import took 0.076261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/FurnishedCabin/Meshes/Materials/BuildingA_MAT.mat
-  artifactKey: Guid(022d678aa22a77a408d84ccaf0192e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FurnishedCabin/Meshes/Materials/BuildingA_MAT.mat using Guid(022d678aa22a77a408d84ccaf0192e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cc73ac7bd42eec1910029caef0a918') in 0.620099 seconds
-  Import took 0.623458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/BR_Tile_01.mat
-  artifactKey: Guid(aae18af11f5af9d43bb55831bba0ae8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/BR_Tile_01.mat using Guid(aae18af11f5af9d43bb55831bba0ae8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163a9d021160643c82e346108a78e31f') in 0.064500 seconds
-  Import took 0.067709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/FurnishedCabin/Meshes/Materials/BedroomFurniture_MAT.mat
-  artifactKey: Guid(bbff17a888fc93a408a34e3b95c5e885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FurnishedCabin/Meshes/Materials/BedroomFurniture_MAT.mat using Guid(bbff17a888fc93a408a34e3b95c5e885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ed0e30065647b36aea36ee6f951a33') in 0.588656 seconds
-  Import took 0.591714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Simple Garage/Materials/blue light.mat
-  artifactKey: Guid(15e08cb328ceee642a65284046b295fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/blue light.mat using Guid(15e08cb328ceee642a65284046b295fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36842ffdff1006069810dd343d2739eb') in 0.100984 seconds
-  Import took 0.103522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Brick mute 02.mat
-  artifactKey: Guid(099e69089d2c47044b06273bff53533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Brick mute 02.mat using Guid(099e69089d2c47044b06273bff53533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da68f218c7066d2d02121c970e725093') in 0.128696 seconds
-  Import took 0.131320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Simple Garage/Materials/body.mat
-  artifactKey: Guid(cfa013396b64c1a43af405a116941549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/body.mat using Guid(cfa013396b64c1a43af405a116941549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f858e4a60481ebf5eac77c234a4b522') in 0.021987 seconds
-  Import took 0.025770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001066 seconds.
-  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Building Floor Tile.mat
-  artifactKey: Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Building Floor Tile.mat using Guid(b65d6f1427086d84f91a3153f6f82ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5666367a3ea3b08489dbbc60505a449e') in 0.809417 seconds
-  Import took 0.813640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Gold.mat
-  artifactKey: Guid(84a1ffeca40e4c6439b0a1f93b4d287c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Gold.mat using Guid(84a1ffeca40e4c6439b0a1f93b4d287c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabfaa3d88dc74407225c702a4153152') in 0.212096 seconds
-  Import took 0.214687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Antique.mat
-  artifactKey: Guid(4a3c4e9ae9b122e449659fdb803fb1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Antique.mat using Guid(4a3c4e9ae9b122e449659fdb803fb1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b076626fbaa2e11141a4ecbd83d9d01f') in 0.436779 seconds
-  Import took 0.439422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/FurnishedCabin/Meshes/Materials/Bathroom_Oven_MAT.mat
-  artifactKey: Guid(20e170f662817d44383bf29029741cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FurnishedCabin/Meshes/Materials/Bathroom_Oven_MAT.mat using Guid(20e170f662817d44383bf29029741cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c0b1b6e3701d01ab4b4708be0133f0') in 1.020823 seconds
-  Import took 1.024515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Chrome.mat
-  artifactKey: Guid(4580dd49916b3c542b97109c8ca425f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Chrome.mat using Guid(4580dd49916b3c542b97109c8ca425f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05b8d6f23567bcc572cf2d662647fa5') in 0.091908 seconds
-  Import took 0.094499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Simple Garage/Models/Machinery parts.Shock Absorber.fbx
-  artifactKey: Guid(590bc76de0fd52e48ba7be1edb36a5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Machinery parts.Shock Absorber.fbx using Guid(590bc76de0fd52e48ba7be1edb36a5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb3ce0f719b34be3535ee0357e32c2d') in 1.148837 seconds
-  Import took 1.151516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Burlap_01.mat
-  artifactKey: Guid(4c3e122e15d5d984083bffaa2d094ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Burlap_01.mat using Guid(4c3e122e15d5d984083bffaa2d094ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3aedd7de526cf7b960d4127000a4ccc') in 0.563166 seconds
-  Import took 0.565641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Antique.mat
-  artifactKey: Guid(5f469581b50505747a410deecdf8f11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Antique.mat using Guid(5f469581b50505747a410deecdf8f11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ca152b9403c74b5296f37f2a0dd23a') in 0.070995 seconds
-  Import took 0.074179 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Black.mat
-  artifactKey: Guid(4cd790ac0d37bdc46970f6688c6b5070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Black.mat using Guid(4cd790ac0d37bdc46970f6688c6b5070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1080c6a08838a1c76ebb7e85c5731eb3') in 0.136045 seconds
-  Import took 0.140042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Brass.mat
-  artifactKey: Guid(b9c5d6ba92c526a43991da07d41229bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Brass.mat using Guid(b9c5d6ba92c526a43991da07d41229bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee36f3aa6d9e721c008f9282c6dd3335') in 0.028643 seconds
-  Import took 0.031569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Cabinets_01.mat
-  artifactKey: Guid(5bdd1af6958bd9143a8bc920d98238b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Cabinets_01.mat using Guid(5bdd1af6958bd9143a8bc920d98238b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ab672308bb0da717e46c36c7336b4c') in 0.084963 seconds
-  Import took 0.087999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/FurnishedCabin/Meshes/Materials/BuildingB_MAT.mat
-  artifactKey: Guid(675e6ce36fc642b48ae4d1d5d0c7cfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FurnishedCabin/Meshes/Materials/BuildingB_MAT.mat using Guid(675e6ce36fc642b48ae4d1d5d0c7cfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc23fab8c7490cb38ba626b4bae9bc02') in 0.427904 seconds
-  Import took 0.431124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Cabinets_02.mat
-  artifactKey: Guid(8065c96d5d4286e4987cd02652878015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Cabinets_02.mat using Guid(8065c96d5d4286e4987cd02652878015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1395f905248212cca20cedc80eda2cea') in 0.086386 seconds
-  Import took 0.089083 seconds .
+  Time since last request: 0.000385 seconds.
+  path: Assets/Simple Garage/Models/Locker.fbx
+  artifactKey: Guid(1d5d7e0445e52774e839fe045a67c136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Models/Locker.fbx using Guid(1d5d7e0445e52774e839fe045a67c136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c76dda4423724bc98ac9a0171a856fc') in 1.093775 seconds
+  Import took 1.232049 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000373 seconds.
-  path: Assets/Simple Garage/Materials/Black-4.mat
-  artifactKey: Guid(32c330ba2dea66c49a868b2037522165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/Black-4.mat using Guid(32c330ba2dea66c49a868b2037522165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0adbd7d1f7b7ac683ae82781c878528') in 0.043842 seconds
-  Import took 0.047256 seconds .
+  path: Assets/Simple Garage/Models/Longboard.fbx
+  artifactKey: Guid(327d01924b7231d47883fe1d588cfbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Models/Longboard.fbx using Guid(327d01924b7231d47883fe1d588cfbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9860eaa36213d18f491db43c4183a19a') in 0.403047 seconds
+  Import took 0.434310 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Simple Garage/Models/Machinery parts.mirror.fbx
-  artifactKey: Guid(681be740132a8364fb1e414a4988c47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Machinery parts.mirror.fbx using Guid(681be740132a8364fb1e414a4988c47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bebc37dcb00de27983db152856b505') in 0.167540 seconds
-  Import took 0.170319 seconds .
+  Time since last request: 0.000380 seconds.
+  path: Assets/Simple Garage/Materials/Garage door albedo.mat
+  artifactKey: Guid(7ef4fb80a8e8ba548aacc1d07b7b1b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Garage door albedo.mat using Guid(7ef4fb80a8e8ba548aacc1d07b7b1b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7eaf796b9417f9450efe02eb914925') in 0.302054 seconds
+  Import took 0.389105 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 544.281890 seconds.
-  path: Assets/VR360/Materials360/Iconos360
-  artifactKey: Guid(237e33255a744394984754185495ba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360 using Guid(237e33255a744394984754185495ba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6e48b1eea8111fb925d4bc698b4b8f') in 0.011433 seconds
-  Import took 0.014738 seconds .
+  Time since last request: 0.000382 seconds.
+  path: Assets/Simple Garage/Materials/emmisiive.002.mat
+  artifactKey: Guid(af6db2a9628a7ec4d817bf5afb23d1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/emmisiive.002.mat using Guid(af6db2a9628a7ec4d817bf5afb23d1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae2072413cfabe49b157d491794d4d4') in 0.064489 seconds
+  Import took 0.067876 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 79.114356 seconds.
-  path: Assets/VR360/Materials360/Iconos360/Flecha.png
-  artifactKey: Guid(3d96ea0028fb25f498468a5c9b32fe7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/Flecha.png using Guid(3d96ea0028fb25f498468a5c9b32fe7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23c0b7ab46e207d15c335dcc9eba43a') in 0.182265 seconds
-  Import took 0.185542 seconds .
+  Time since last request: 0.000353 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/glass 02.mat
+  artifactKey: Guid(3bded00981e95504a8e47f996835ca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/glass 02.mat using Guid(3bded00981e95504a8e47f996835ca9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc4a321c1dca0387900ee4326cb29e8') in 0.878462 seconds
+  Import took 0.905848 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/VR360/Materials360/Iconos360/IconoCasaGran.png
-  artifactKey: Guid(f80c4f2bc859e0043924eeccbd69b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/IconoCasaGran.png using Guid(f80c4f2bc859e0043924eeccbd69b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7215f141fd679fc5a5a63bd967084da5') in 0.020688 seconds
-  Import took 0.023254 seconds .
+  Time since last request: 0.000328 seconds.
+  path: Assets/Simple Garage/Materials/emmisiive.001.mat
+  artifactKey: Guid(36900c0f5e1028f40b2747479ead4db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/emmisiive.001.mat using Guid(36900c0f5e1028f40b2747479ead4db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48226eca66c468f8fbd4ff63cd9f96a8') in 0.037136 seconds
+  Import took 0.128986 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/VR360/Materials360/Iconos360/IconoCasaPeq.png
-  artifactKey: Guid(dc4e61df707c3af42bdcc70309cf5614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/IconoCasaPeq.png using Guid(dc4e61df707c3af42bdcc70309cf5614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11ca68f5d998ce6c7112e923e7d6189') in 0.011638 seconds
-  Import took 0.014159 seconds .
+  Time since last request: 0.000359 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Fire/Fire_Add_01.mat
+  artifactKey: Guid(4791bf36c2e577a4a9e789b580579636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Fire/Fire_Add_01.mat using Guid(4791bf36c2e577a4a9e789b580579636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf293f32d7ecc9ddb5785f280874582f') in 0.212135 seconds
+  Import took 0.234389 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3245.631432 seconds.
-  path: Assets/VR360/Materials360/IconoCasaPeq.mat
-  artifactKey: Guid(6acc6d87a52f3cc44bead54ea8e1521c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/IconoCasaPeq.mat using Guid(6acc6d87a52f3cc44bead54ea8e1521c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6c6f6319d7da1f82fbefb5c02f0d42') in 0.016403 seconds
-  Import took 0.019959 seconds .
+  Time since last request: 0.000350 seconds.
+  path: Assets/Simple Garage/Materials/Dark Grey.mat
+  artifactKey: Guid(3df0fcd10d7adee40b1d8bf4a642cd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Dark Grey.mat using Guid(3df0fcd10d7adee40b1d8bf4a642cd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd091c9d527d99b7861927daceabeb3ed') in 0.056016 seconds
+  Import took 0.191889 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004675 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.982 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.1 MB.
-System memory in use after: 71.2 MB.
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Ebony Wood.mat
+  artifactKey: Guid(5af27c19293d0ff4cb00b35cc2189634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Ebony Wood.mat using Guid(5af27c19293d0ff4cb00b35cc2189634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e858cbb4f730e85334bab740be81c4') in 0.501927 seconds
+  Import took 0.526997 seconds .
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1894.
-Total: 1.937400 ms (FindLiveObjects: 0.147700 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.692000 ms  DeleteObjects: 0.051300 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Leather_01.mat
+  artifactKey: Guid(cd43f733a36e7fa459b71f33b2d0bb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Leather_01.mat using Guid(cd43f733a36e7fa459b71f33b2d0bb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d54cc4a74d0789f017bd64780f0c4d') in 0.955047 seconds
+  Import took 1.009831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Simple Garage/Models/Large corner shelf.fbx
+  artifactKey: Guid(855de4ea21d5fe2428038de2e0d0371f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Models/Large corner shelf.fbx using Guid(855de4ea21d5fe2428038de2e0d0371f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac1460445dac51522661f564e11d4de') in 0.450421 seconds
+  Import took 0.494854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Simple Garage/Materials/Floor.mat
+  artifactKey: Guid(62c006922a11952419e8ee50d28443de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Floor.mat using Guid(62c006922a11952419e8ee50d28443de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2275ac34412a9f3eb99c806e4a1efda') in 0.359436 seconds
+  Import took 0.362699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Simple Garage/Models/Drill part.fbx
+  artifactKey: Guid(f06171d029e9da44ba45d3270f5d5fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Models/Drill part.fbx using Guid(f06171d029e9da44ba45d3270f5d5fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2356723d65003d466a45c487ff68135d') in 0.120404 seconds
+  Import took 0.142916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Materials/Floor.mat
+  artifactKey: Guid(8bc66c32bcc20154f91d0f3fc8d2d55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Floor.mat using Guid(8bc66c32bcc20154f91d0f3fc8d2d55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0b3678ea6a7771b98e380b8d9afa2a') in 0.250677 seconds
+  Import took 0.312709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Simple Garage/Materials/Longboard albedo.mat
+  artifactKey: Guid(dc1d5ab937e4b0b46833f454d7f1ec28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Longboard albedo.mat using Guid(dc1d5ab937e4b0b46833f454d7f1ec28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab37a08aadc9113cd97a5646d7b3def8') in 0.064892 seconds
+  Import took 0.116832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/LampShade_On.mat
+  artifactKey: Guid(b88360a072428ab458700f373aaa91ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/LampShade_On.mat using Guid(b88360a072428ab458700f373aaa91ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55c6bccacb8b337096c52613d0c0183') in 0.097986 seconds
+  Import took 0.123170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Simple Garage/Materials/Locker.white.mat
+  artifactKey: Guid(c0f4f06e01447864a8f235142ec5acf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Locker.white.mat using Guid(c0f4f06e01447864a8f235142ec5acf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b295ab288735c3d9e7a0ce8ba4d2b29f') in 0.043170 seconds
+  Import took 0.076132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Simple Garage/Materials/Longboard.suspension.mat
+  artifactKey: Guid(48bb87800b8ade9448d5a29d4cc5b84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Longboard.suspension.mat using Guid(48bb87800b8ade9448d5a29d4cc5b84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bb40701f09989725badc1049ca4501') in 0.033454 seconds
+  Import took 0.067426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Glass Wine Bottle Wrapper 02.mat
+  artifactKey: Guid(5d5f7ba22899a774081673e045e96cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Glass Wine Bottle Wrapper 02.mat using Guid(5d5f7ba22899a774081673e045e96cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1264c7d5e37a9ecc744d8fdced1437') in 0.053873 seconds
+  Import took 0.075389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Simple Garage/Models/Garage door.fbx
+  artifactKey: Guid(0ef15bbf0c3f08646b1812c663767007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Models/Garage door.fbx using Guid(0ef15bbf0c3f08646b1812c663767007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f272063a8dd8a37908a531b628c1b0') in 0.071347 seconds
+  Import took 0.093984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Simple Garage/Models/Exterior.fbx
+  artifactKey: Guid(05a30d1750f15df4e9f9d43f92e779ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Models/Exterior.fbx using Guid(05a30d1750f15df4e9f9d43f92e779ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d5e9fa8855619d6cc09606b65e6324') in 0.574815 seconds
+  Import took 0.606154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Simple Garage/Materials/Locker.black.mat
+  artifactKey: Guid(e14c8162cb2585a499d1ec313c5a8a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Locker.black.mat using Guid(e14c8162cb2585a499d1ec313c5a8a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77037285ba6c06798ddd7c27b4b67b3') in 0.096971 seconds
+  Import took 0.143176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Kenney Assets/Furniture Pack/Models/Materials/lamp.mat
+  artifactKey: Guid(3abb9501db09345478f1779f142533d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Furniture Pack/Models/Materials/lamp.mat using Guid(3abb9501db09345478f1779f142533d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5555282fb2d3bcc866420c84257b5543') in 0.085573 seconds
+  Import took 0.134379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Kenney Assets/Furniture Pack/Models/Materials/glass.mat
+  artifactKey: Guid(11a74b4980ff82340ae88a3aeda0c1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Furniture Pack/Models/Materials/glass.mat using Guid(11a74b4980ff82340ae88a3aeda0c1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd011b60d1b93de00a128be5eff3013c5') in 0.156568 seconds
+  Import took 0.172234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Gold.mat
+  artifactKey: Guid(e767d86cbf3099a478162f1692b1edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Gold.mat using Guid(e767d86cbf3099a478162f1692b1edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b004cf67798a3ede129875a903014e5') in 0.092857 seconds
+  Import took 0.096393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Label.mat
+  artifactKey: Guid(887cd0bd2b51873418b96f1bf6f04da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Label.mat using Guid(887cd0bd2b51873418b96f1bf6f04da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a8b67ee8e185ba92cdc555aa474fc8') in 0.492007 seconds
+  Import took 0.520159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Propts/Conectores.fbx
+  artifactKey: Guid(e314b586da73c78469f79363e23eb8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Propts/Conectores.fbx using Guid(e314b586da73c78469f79363e23eb8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1e37f62539b304b663b0a7d7502549') in 0.170882 seconds
+  Import took 0.247616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/FurnishedCabin/Meshes/Materials/Doors_TVStand_MAT.mat
+  artifactKey: Guid(cdbe46314d4b7ab4ca61d18f0462c8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Materials/Doors_TVStand_MAT.mat using Guid(cdbe46314d4b7ab4ca61d18f0462c8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff492207301ebb5cd40d378ab380969') in 0.463914 seconds
+  Import took 0.519525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Simple Garage/Materials/light emission no.mat
+  artifactKey: Guid(9a37adedc100c1749b8f3b355c0eb6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/light emission no.mat using Guid(9a37adedc100c1749b8f3b355c0eb6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1db0937ea1750b0c606049e0b2a7351') in 0.061414 seconds
+  Import took 0.128112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Glow.mat
+  artifactKey: Guid(823f8d5383d173a4fb4153a73427684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Glow.mat using Guid(823f8d5383d173a4fb4153a73427684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634c8c3267cded7b5be54f2101d13859') in 0.061156 seconds
+  Import took 0.136794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Marble_Dark.mat
+  artifactKey: Guid(6d3ba1df7fa074c45b26f73faef7608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Marble_Dark.mat using Guid(6d3ba1df7fa074c45b26f73faef7608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1207be19f10f301f2ebbcbaefaed8597') in 0.458255 seconds
+  Import took 0.466757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Simple Garage/Materials/Locker.metal.mat
+  artifactKey: Guid(ea68a7f6198c41840b4110b5c4b0411f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Locker.metal.mat using Guid(ea68a7f6198c41840b4110b5c4b0411f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddae9f1f45671ed20ebab29f667d2fbd') in 0.039869 seconds
+  Import took 0.078214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Glass Wine Bottle 05.mat
+  artifactKey: Guid(faedf01a9e7977749a7798016f508081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Glass Wine Bottle 05.mat using Guid(faedf01a9e7977749a7798016f508081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018c8aeed2944dfa4979e5ed7b203998') in 0.102507 seconds
+  Import took 0.126472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Fire/Fire_Alpha_01.mat
+  artifactKey: Guid(cdb5cf50c86c5e1479a217fd032beff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Fire/Fire_Alpha_01.mat using Guid(cdb5cf50c86c5e1479a217fd032beff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb70f6f898eddc69c887f42310cdb45') in 0.207108 seconds
+  Import took 0.209845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Materials/madera.mat
+  artifactKey: Guid(2bbb6a3127d8cc145b18e3bab2353fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/madera.mat using Guid(2bbb6a3127d8cc145b18e3bab2353fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873bbd49b9cb0b5742067e94d5f562c7') in 0.064847 seconds
+  Import took 0.086012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Models/Lamp 02.fbx
+  artifactKey: Guid(e501afb3ed5c60243ac1515b7ca1e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Models/Lamp 02.fbx using Guid(e501afb3ed5c60243ac1515b7ca1e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713e0d70d4e5d11d728fed6d33ad67c7') in 0.246406 seconds
+  Import took 0.261480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Textures 1/Materials/Grass_2.mat
+  artifactKey: Guid(2b85c59c70fe01e4a865363e26f573e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures 1/Materials/Grass_2.mat using Guid(2b85c59c70fe01e4a865363e26f573e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa95424f05fa5246e78fb8263c1dfe7') in 0.088007 seconds
+  Import took 0.105539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Glass.mat
+  artifactKey: Guid(88b88f875cf0af442996954ba27bdf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Glass.mat using Guid(88b88f875cf0af442996954ba27bdf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06fabc27b8b881d98bff8656f597f1d') in 0.045248 seconds
+  Import took 0.049340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Lamp 02 Ceiling.mat
+  artifactKey: Guid(c4401e5b03b52de47b786ae0f6002794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Lamp 02 Ceiling.mat using Guid(c4401e5b03b52de47b786ae0f6002794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bc4a47e13983311707582a723c8a46') in 0.163333 seconds
+  Import took 0.177465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Lamp 02 Standing.mat
+  artifactKey: Guid(fe8413b8ec60cb04f81b8c9b23e233f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Lamp 02 Standing.mat using Guid(fe8413b8ec60cb04f81b8c9b23e233f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fdf6e555420c6805eae029e1634784') in 0.216202 seconds
+  Import took 0.219479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Glass_Dark.mat
+  artifactKey: Guid(cc90876a24c95974baf293258366d22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Glass_Dark.mat using Guid(cc90876a24c95974baf293258366d22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49503a289b62bd3c1863669495bb2b41') in 0.202856 seconds
+  Import took 0.226418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Interior Exterior/Ext_Apt_01.mat
+  artifactKey: Guid(05ab6237a2436a34bb31bebcb35225c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Interior Exterior/Ext_Apt_01.mat using Guid(05ab6237a2436a34bb31bebcb35225c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f909f43d0c095531b56e1c402bb99c') in 0.306592 seconds
+  Import took 0.309656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Marble 01.mat
+  artifactKey: Guid(cb77271ecd71cbd4599aa533ebf5cc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Marble 01.mat using Guid(cb77271ecd71cbd4599aa533ebf5cc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16882ae6f29f79677f94ec62e4c9573c') in 0.236718 seconds
+  Import took 0.257286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Simple Garage/Models/Air conditioner.fbx
+  artifactKey: Guid(ff9efb7f0f6706e49a111b5be7d18983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Models/Air conditioner.fbx using Guid(ff9efb7f0f6706e49a111b5be7d18983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7def48c27b31e46b0d1e84001b0e0b') in 0.189992 seconds
+  Import took 0.202322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Lamp 02 Shade - On.mat
+  artifactKey: Guid(71e62a5ab55406f4aada84fe885d47b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Lamp 02 Shade - On.mat using Guid(71e62a5ab55406f4aada84fe885d47b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5036debe0a3b9df3af541081b81d9f') in 0.093229 seconds
+  Import took 0.147391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Fire/Fire_Alpha_02.mat
+  artifactKey: Guid(fafce5ad41639d14d9cfadc181485ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Fire/Fire_Alpha_02.mat using Guid(fafce5ad41639d14d9cfadc181485ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58dcdd916c1cc0eba18a6813e0988251') in 0.125499 seconds
+  Import took 0.143765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Fire/Fire_Add_02.mat
+  artifactKey: Guid(0fdd751cd86106446afa0dc09e0eeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Fire/Fire_Add_02.mat using Guid(0fdd751cd86106446afa0dc09e0eeb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3eacce4744a6d7bee3cff459d741e4a') in 0.094579 seconds
+  Import took 0.097272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Lamp 02 Table.mat
+  artifactKey: Guid(ef49c0bd94883b4498c46a5c772544b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Lamp 02 Table.mat using Guid(ef49c0bd94883b4498c46a5c772544b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8944e8d64ee3da4b92ad036c79c1db71') in 0.166688 seconds
+  Import took 0.169631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Light Wall 01.mat
+  artifactKey: Guid(70139dc62be58be4a91d1831e1f21e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Light Wall 01.mat using Guid(70139dc62be58be4a91d1831e1f21e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e914a4b0acdcfbaaa452e741575c9f9a') in 0.081273 seconds
+  Import took 0.131236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/FurnishedCabin/Meshes/Materials/Lights_towel_MAT.mat
+  artifactKey: Guid(cf3d52b3b76bf4c4ebf9164c88c1b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Materials/Lights_towel_MAT.mat using Guid(cf3d52b3b76bf4c4ebf9164c88c1b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ec4b4fd147b0a84976d90a9fc4514f') in 0.494662 seconds
+  Import took 0.529381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Simple Garage/Models/3 shelves.fbx
+  artifactKey: Guid(1436e4d03ae5d464aa6a43bf8c6f5743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Models/3 shelves.fbx using Guid(1436e4d03ae5d464aa6a43bf8c6f5743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6cb9e02ffd3c4aeafc575b6fd16252') in 0.078857 seconds
+  Import took 0.082407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Lamp 02 Ceiling Shade - On.mat
+  artifactKey: Guid(136beb9ca8a36994ca60918c49ee2767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Lamp 02 Ceiling Shade - On.mat using Guid(136beb9ca8a36994ca60918c49ee2767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a3bdf9cc1950942b856bbe5c9acef0') in 0.522847 seconds
+  Import took 0.525497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Simple Garage/Models/Big shelf.fbx
+  artifactKey: Guid(d7d3fa1e450020e42b694021662529cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Models/Big shelf.fbx using Guid(d7d3fa1e450020e42b694021662529cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfd11dca7a9606c4bdb210e7d354422') in 0.117515 seconds
+  Import took 0.120233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Kenney Assets/Furniture Pack/Models/Materials/fur.mat
+  artifactKey: Guid(c52e8d5244262ae44851a96de5e84818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Furniture Pack/Models/Materials/fur.mat using Guid(c52e8d5244262ae44851a96de5e84818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5461276d86bc87a89e177389ca926bd') in 0.086214 seconds
+  Import took 0.178082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Simple Garage/Materials/Longboard.wheels.mat
+  artifactKey: Guid(3038a907f8152d646a6777016ad52194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Longboard.wheels.mat using Guid(3038a907f8152d646a6777016ad52194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1a14928e6eb9818f5edeb0f0b24112') in 0.063859 seconds
+  Import took 0.092872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/glass 03.mat
+  artifactKey: Guid(266fb6016862b8b4ba1eec482c572c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/glass 03.mat using Guid(266fb6016862b8b4ba1eec482c572c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e8d5842b2e4cfbe04b2a10034be42f') in 0.398596 seconds
+  Import took 0.418431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Interior Exterior/Int_Apt_01.mat
+  artifactKey: Guid(e5edd18648b6fe340941b7f67c9a2996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Interior Exterior/Int_Apt_01.mat using Guid(e5edd18648b6fe340941b7f67c9a2996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44200c93245c1e1153ee9adf5ce1b193') in 0.913288 seconds
+  Import took 1.034145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Materials/GRASS.mat
+  artifactKey: Guid(90d95d066677d2042b6c44abdc538891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GRASS.mat using Guid(90d95d066677d2042b6c44abdc538891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5f4590034c3b02632857af14c712aa') in 0.085562 seconds
+  Import took 0.118644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/LampShadeFabric_On.mat
+  artifactKey: Guid(625ca8b0c9507cd4d8685b336560db6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/LampShadeFabric_On.mat using Guid(625ca8b0c9507cd4d8685b336560db6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce46aeb644674b540f58b5f47b7957a3') in 0.145487 seconds
+  Import took 0.148033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/CounterTop_01.mat
+  artifactKey: Guid(656eb32607aaaed4590ee8c05d00282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/CounterTop_01.mat using Guid(656eb32607aaaed4590ee8c05d00282f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acac9e89891d6a51bd8afc471825a8b2') in 0.360818 seconds
+  Import took 0.412100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Fabric_01_White.mat
+  artifactKey: Guid(7f1d2f122bc99854b95672cfb7d080fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Fabric_01_White.mat using Guid(7f1d2f122bc99854b95672cfb7d080fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c438300249b074ef56291e66dd7bf8') in 0.402259 seconds
+  Import took 0.435725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Simple Garage/Materials/light emission no.001.mat
+  artifactKey: Guid(65ec10b3ef35a394c9054456fd386643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/light emission no.001.mat using Guid(65ec10b3ef35a394c9054456fd386643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762c317c6e987c477a8bbfb32a9ab8db') in 0.043228 seconds
+  Import took 0.045715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Fabric_01_Blue.mat
+  artifactKey: Guid(0e43f5a20c0c0184da573df09c6c1d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Fabric_01_Blue.mat using Guid(0e43f5a20c0c0184da573df09c6c1d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371ada9eb4fe65d7ee3af639601dfbbe') in 0.102083 seconds
+  Import took 0.135731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Simple Garage/Materials/Exterior_Exterior_pbr_diffuse.mat
+  artifactKey: Guid(340f75f24897b0d4f8ff67aa590e1319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Exterior_Exterior_pbr_diffuse.mat using Guid(340f75f24897b0d4f8ff67aa590e1319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efced3c33203c0537cf8da59a952b6b') in 0.113619 seconds
+  Import took 0.200571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/FurnishedCabin/Meshes/Materials/Fireplace_KitchenBench_MAT.mat
+  artifactKey: Guid(00d8ce6c4a0c9f948b70d391f10f72cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Materials/Fireplace_KitchenBench_MAT.mat using Guid(00d8ce6c4a0c9f948b70d391f10f72cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25ba22615ae5f0006a07dc43f97aab0') in 0.638623 seconds
+  Import took 0.642346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Frosted.mat
+  artifactKey: Guid(f4c2705402c106042bb0cfaeab8f8d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Frosted.mat using Guid(f4c2705402c106042bb0cfaeab8f8d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813473e19469485913b4eac5bc5c2e72') in 0.037532 seconds
+  Import took 0.080169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000808 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Fire/Fire_Glow_01.mat
+  artifactKey: Guid(9a0e2afa4dfa26744be17b68a3e1b98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Fire/Fire_Glow_01.mat using Guid(9a0e2afa4dfa26744be17b68a3e1b98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c79a26fd84407bdd1491b95927b149') in 0.071537 seconds
+  Import took 0.102446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Leather_02.mat
+  artifactKey: Guid(6b037e7c427c8fc478dce6529e818f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Leather_02.mat using Guid(6b037e7c427c8fc478dce6529e818f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dae21acdc7553bf7fb3a23292cc7b87') in 0.104186 seconds
+  Import took 0.196594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Simple Garage/Models/Hose.fbx
+  artifactKey: Guid(d2743396a59a2dc43baa7a2d5414c1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Models/Hose.fbx using Guid(d2743396a59a2dc43baa7a2d5414c1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279f92706a693ce328d00ff4720e97d3') in 0.072411 seconds
+  Import took 0.087978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Simple Garage/Materials/Longboard.wheels.001.mat
+  artifactKey: Guid(38c856b4ea183a0449a7f01630d0ca78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Longboard.wheels.001.mat using Guid(38c856b4ea183a0449a7f01630d0ca78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd4ad8e2af4b6f00b2cf9fbf1a86496') in 0.088998 seconds
+  Import took 0.111939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Textures 1/Materials/Grass.mat
+  artifactKey: Guid(c1407340d64d9fe43bc9b1eeeb4a1121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures 1/Materials/Grass.mat using Guid(c1407340d64d9fe43bc9b1eeeb4a1121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0677dfa979e4a1ee97fc03b9cc0f92e2') in 0.054499 seconds
+  Import took 0.130794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.206816 seconds.
+  path: Assets/VR360/Materials360/Iconos360/IconoCasaPeq.mat
+  artifactKey: Guid(3c6efd5ebb4e7444da08d49c5731832a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/Iconos360/IconoCasaPeq.mat using Guid(3c6efd5ebb4e7444da08d49c5731832a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a6a56a29ec466bc630ab4b429ca0de') in 0.160922 seconds
+  Import took 0.189947 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
