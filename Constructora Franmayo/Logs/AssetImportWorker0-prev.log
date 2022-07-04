@@ -15,11 +15,11 @@ C:/Users/Jonathan/Documents/GitHub/Franmayo/Constructora Franmayo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49933
+61957
 Successfully changed project path to: C:/Users/Jonathan/Documents/GitHub/Franmayo/Constructora Franmayo
 C:/Users/Jonathan/Documents/GitHub/Franmayo/Constructora Franmayo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,271 +35,206 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.020976 seconds.
+Registered in 0.002975 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 49.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.476 seconds
+- Completed reload, in  2.332 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.020365 seconds.
+Registered in 0.003998 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.356 seconds
+- Completed reload, in  1.555 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1408 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.3 MB.
-System memory in use after: 67.3 MB.
+System memory in use before: 67.4 MB.
+System memory in use after: 67.4 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1846.
-Total: 2.291600 ms (FindLiveObjects: 0.198300 ms CreateObjectMapping: 0.049600 ms MarkObjects: 1.970000 ms  DeleteObjects: 0.072600 ms)
+Total: 2.084100 ms (FindLiveObjects: 0.168300 ms CreateObjectMapping: 0.049200 ms MarkObjects: 1.795900 ms  DeleteObjects: 0.069700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/VR360/Materials360/Iconos360/IconoCasaPeq.png
-  artifactKey: Guid(dc4e61df707c3af42bdcc70309cf5614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/IconoCasaPeq.png using Guid(dc4e61df707c3af42bdcc70309cf5614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643f05b0fa9cd0c3c561506853b71c9c') in 0.243054 seconds
-  Import took 0.247251 seconds .
+  path: Assets/FurnishedCabin/Meshes/Materials/Chairs_MAT.mat
+  artifactKey: Guid(d6a229c0f47dadf42b20d706185b565a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Materials/Chairs_MAT.mat using Guid(d6a229c0f47dadf42b20d706185b565a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f1f0c57c7d810fcae6f2b86c7ae780') in 1.030521 seconds
+  Import took 1.033247 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.210148 seconds.
-  path: Assets/VR360/Materials360/Iconos360/IconoCasaPeq.png
-  artifactKey: Guid(dc4e61df707c3af42bdcc70309cf5614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/IconoCasaPeq.png using Guid(dc4e61df707c3af42bdcc70309cf5614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c708beb317171e144686dae8d12253c2') in 0.013631 seconds
-  Import took 0.018239 seconds .
+  Time since last request: 0.000387 seconds.
+  path: Assets/Kenney Assets/Furniture Pack/Models/Materials/carpetDarker.mat
+  artifactKey: Guid(568410dfcacb40f4eb6db50753be32ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Furniture Pack/Models/Materials/carpetDarker.mat using Guid(568410dfcacb40f4eb6db50753be32ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb44df3eaf730967d23f3bef0c677761') in 0.040317 seconds
+  Import took 0.043158 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.970077 seconds.
-  path: Assets/VR360/Materials360/Iconos360/IconoCasaPeq.png
-  artifactKey: Guid(dc4e61df707c3af42bdcc70309cf5614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/IconoCasaPeq.png using Guid(dc4e61df707c3af42bdcc70309cf5614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117d568160973c88e32f38cae5aa7ba9') in 0.013621 seconds
-  Import took 0.017062 seconds .
+  Time since last request: 0.000341 seconds.
+  path: Assets/Simple Garage/Materials/Carpet albedo.mat
+  artifactKey: Guid(4d3949fc3b5686e488e9190dae8cf98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Carpet albedo.mat using Guid(4d3949fc3b5686e488e9190dae8cf98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0545bb561d3cc361ce1b467379e3ca9a') in 0.119631 seconds
+  Import took 0.122186 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.681893 seconds.
-  path: Assets/VR360/Materials360/Iconos360/IconoCasaPeq.png
-  artifactKey: Guid(dc4e61df707c3af42bdcc70309cf5614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/IconoCasaPeq.png using Guid(dc4e61df707c3af42bdcc70309cf5614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014f3010c9675e2d1afda92b2c14f8d2') in 0.009858 seconds
-  Import took 0.013313 seconds .
+  Time since last request: 0.000304 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Colors_apt.mat
+  artifactKey: Guid(ef29f2ebae532ed4291b1e9ad9cc45a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Colors_apt.mat using Guid(ef29f2ebae532ed4291b1e9ad9cc45a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6349979b48cf584ae3e663fc5e0e11d9') in 0.077753 seconds
+  Import took 0.080326 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 63.388645 seconds.
-  path: Assets/VR360/Materials360/Iconos360/Iconos.png
-  artifactKey: Guid(7655c7d57fc8a6b4e83fa1dd04addf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/Iconos.png using Guid(7655c7d57fc8a6b4e83fa1dd04addf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6449a9a775de7e2373de175b4c65d6c6') in 0.505325 seconds
-  Import took 0.509595 seconds .
+  Time since last request: 0.000286 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Canvas_Painting_01.mat
+  artifactKey: Guid(5c4d526e95a945e46abbe1645a318634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Canvas_Painting_01.mat using Guid(5c4d526e95a945e46abbe1645a318634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b438ada4c0b3c599212de0c7b3de2b') in 0.206845 seconds
+  Import took 0.210944 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 149.095959 seconds.
-  path: Assets/VR360/Materials360/Iconos360/sddsd.png
-  artifactKey: Guid(4f012fe6ccc7bae44be0836751999555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/sddsd.png using Guid(4f012fe6ccc7bae44be0836751999555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2b00e6c4d4be9c5995984a037a09cd') in 0.016194 seconds
-  Import took 0.022970 seconds .
+  Time since last request: 0.000354 seconds.
+  path: Assets/Kenney Assets/Furniture Pack/Models/Materials/carpetWhite.mat
+  artifactKey: Guid(fe5c2857e7f5c4e488f5457c1f5f79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Furniture Pack/Models/Materials/carpetWhite.mat using Guid(fe5c2857e7f5c4e488f5457c1f5f79bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27b81837a6ab634a4d4728d727f9daa') in 0.043011 seconds
+  Import took 0.045515 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 160.646434 seconds.
-  path: Assets/VR360/Materials360/Iconos360/icono.png
-  artifactKey: Guid(f451c6db66529094ab880d30465f5a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/icono.png using Guid(f451c6db66529094ab880d30465f5a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d74f11b89c75210111e4581d713256') in 0.050187 seconds
-  Import took 0.056499 seconds .
+  Time since last request: 0.000332 seconds.
+  path: Assets/Simple Garage/Materials/Camouflage suitcase relief albedo.mat
+  artifactKey: Guid(04bc125d9fd5ba940983570cb9ae0efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Camouflage suitcase relief albedo.mat using Guid(04bc125d9fd5ba940983570cb9ae0efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e70d982544dbb209854cba6a669b93') in 0.230276 seconds
+  Import took 0.233037 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000744 seconds.
-  path: Assets/VR360/Materials360/Iconos360/icono.png
-  artifactKey: Guid(f451c6db66529094ab880d30465f5a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/icono.png using Guid(f451c6db66529094ab880d30465f5a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d74f11b89c75210111e4581d713256') in 0.021826 seconds
-  Import took 0.027104 seconds .
+  Time since last request: 0.000284 seconds.
+  path: Assets/Kenney Assets/Furniture Pack/Models/Materials/carpet.mat
+  artifactKey: Guid(ce4fd2dc8db96ee4e9e70e6d76eaeb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney Assets/Furniture Pack/Models/Materials/carpet.mat using Guid(ce4fd2dc8db96ee4e9e70e6d76eaeb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f3a658b97d9c511b69821a84115b22') in 0.044069 seconds
+  Import took 0.046810 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 273.356500 seconds.
-  path: Assets/VR360/Materials360/Iconos360/Iconos360.png
-  artifactKey: Guid(688f15d177831be429f6e3907fd779fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/Iconos360.png using Guid(688f15d177831be429f6e3907fd779fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac3ea58e3cbc6b2c8e64898ddab4c8d') in 0.295508 seconds
-  Import took 0.299992 seconds .
+  Time since last request: 0.000336 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Canvas_Painting_02.mat
+  artifactKey: Guid(70c663d62a3d11442934efad3b175b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Canvas_Painting_02.mat using Guid(70c663d62a3d11442934efad3b175b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ce22c84246bfc39df20f47040fc87b') in 0.169790 seconds
+  Import took 0.172436 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 245.376958 seconds.
-  path: Assets/VR360/Materials360/Iconos360/360.png
-  artifactKey: Guid(c75c7af558ac26f41997bf96a08158af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/360.png using Guid(c75c7af558ac26f41997bf96a08158af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483ecdd2bb9f2fe2ae8196132cea0887') in 0.203378 seconds
-  Import took 0.306558 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.177324 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.774 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.3 MB.
-System memory in use after: 67.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1855.
-Total: 2.112700 ms (FindLiveObjects: 0.157400 ms CreateObjectMapping: 0.043400 ms MarkObjects: 1.856300 ms  DeleteObjects: 0.054500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004236 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.636 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.3 MB.
-System memory in use after: 67.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1858.
-Total: 2.771500 ms (FindLiveObjects: 0.219300 ms CreateObjectMapping: 0.072500 ms MarkObjects: 2.402400 ms  DeleteObjects: 0.075200 ms)
+  Time since last request: 0.000341 seconds.
+  path: Assets/Simple Garage/Materials/Ceiling.mat
+  artifactKey: Guid(49d6cde84cf7a9d4aae1d7573eee691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Ceiling.mat using Guid(49d6cde84cf7a9d4aae1d7573eee691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80cb9a5c07fbdfa6c18ade486f943f4') in 0.279780 seconds
+  Import took 0.282282 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1277.730324 seconds.
-  path: Assets/VR360/Materials360/Iconos360/Iconos360.png
-  artifactKey: Guid(688f15d177831be429f6e3907fd779fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/Iconos360.png using Guid(688f15d177831be429f6e3907fd779fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6429414dffce1304ec1843678a96ae') in 0.553322 seconds
-  Import took 0.862731 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004607 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.979 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.3 MB.
-System memory in use after: 67.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1861.
-Total: 2.133600 ms (FindLiveObjects: 0.149000 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.887500 ms  DeleteObjects: 0.052100 ms)
+  Time since last request: 0.000377 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Materials/Surface/CastIron_01.mat
+  artifactKey: Guid(27f834cdb4589be48903c1e529e09c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Materials/Surface/CastIron_01.mat using Guid(27f834cdb4589be48903c1e529e09c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012993e746938e2f196f859300c24c76') in 0.773368 seconds
+  Import took 0.775849 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 742.299600 seconds.
-  path: Assets/VR360/Materials360/Iconos360/Iconos360.png
-  artifactKey: Guid(688f15d177831be429f6e3907fd779fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/Iconos360.png using Guid(688f15d177831be429f6e3907fd779fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544aa816b741a736eed2302b86ec2fe4') in 0.071817 seconds
-  Import took 0.122797 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003706 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.991 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.3 MB.
-System memory in use after: 67.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1864.
-Total: 3.307600 ms (FindLiveObjects: 0.182600 ms CreateObjectMapping: 0.048700 ms MarkObjects: 2.969400 ms  DeleteObjects: 0.104600 ms)
+  Time since last request: 0.000314 seconds.
+  path: Assets/Simple Garage/Models/Carpet.fbx
+  artifactKey: Guid(62e6a133af26dbf498fed56d24553c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Models/Carpet.fbx using Guid(62e6a133af26dbf498fed56d24553c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75f6d6d1fa47e5bd2114c10244fbe9c') in 0.627533 seconds
+  Import took 0.630122 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 407.580371 seconds.
-  path: Assets/VR360/Materials360/Iconos360/IconoCasaPeq.png
-  artifactKey: Guid(688f15d177831be429f6e3907fd779fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/IconoCasaPeq.png using Guid(688f15d177831be429f6e3907fd779fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bc5e736c7d627a56f0ca27324033cc') in 0.050125 seconds
-  Import took 0.088478 seconds .
+  Time since last request: 0.000331 seconds.
+  path: Assets/Simple Garage/Materials/Camouflage suitcase albedo.mat
+  artifactKey: Guid(9cdd0db4b1331894a9c2a03068bf2e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Camouflage suitcase albedo.mat using Guid(9cdd0db4b1331894a9c2a03068bf2e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c96ce7b7a3e8691e8554cca6a23529') in 0.085148 seconds
+  Import took 0.087789 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 210.831775 seconds.
-  path: Assets/VR360/Materials360/Iconos360/IconoCasaGran.png
-  artifactKey: Guid(f80c4f2bc859e0043924eeccbd69b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/IconoCasaGran.png using Guid(f80c4f2bc859e0043924eeccbd69b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467c70ab3ba1c3fbc444af2929e39a67') in 0.074812 seconds
-  Import took 0.101039 seconds .
+  Time since last request: 0.000315 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Models/Bathroom_Apt_01.fbx
+  artifactKey: Guid(651d77a525480c84e9327ec0894c0da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Models/Bathroom_Apt_01.fbx using Guid(651d77a525480c84e9327ec0894c0da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3332d5a3d9c6a6c55a7dde632f7af745') in 0.627219 seconds
+  Import took 0.704344 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 205.892910 seconds.
-  path: Assets/VR360/Materials360/Iconos360/Flecha.png
-  artifactKey: Guid(3d96ea0028fb25f498468a5c9b32fe7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/Flecha.png using Guid(3d96ea0028fb25f498468a5c9b32fe7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766448f5c8df0292f66c28c3242c7902') in 0.020816 seconds
-  Import took 0.025038 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006914 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.998 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.3 MB.
-System memory in use after: 67.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1867.
-Total: 2.134100 ms (FindLiveObjects: 0.138900 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.895700 ms  DeleteObjects: 0.053800 ms)
+  Time since last request: 0.000368 seconds.
+  path: Assets/Brick Project Studio/SE Basic Assets/Materials/Concrete.mat
+  artifactKey: Guid(1e98ebe0ed4d9894d9610d836de5f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/SE Basic Assets/Materials/Concrete.mat using Guid(1e98ebe0ed4d9894d9610d836de5f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a47cd1c2500a2f92032bd2f8bbb22c') in 0.651410 seconds
+  Import took 0.654298 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 412.458164 seconds.
-  path: Assets/VR360/Materials360/Iconos360/IconoCasaPeq.mat
-  artifactKey: Guid(3c6efd5ebb4e7444da08d49c5731832a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VR360/Materials360/Iconos360/IconoCasaPeq.mat using Guid(3c6efd5ebb4e7444da08d49c5731832a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8046ef3838e827c6be92d65cb466ace') in 0.491448 seconds
-  Import took 0.497982 seconds .
+  Time since last request: 776.801609 seconds.
+  path: Assets/VR360/Materials360/New Material.mat
+  artifactKey: Guid(89c6353343048d84eabfb8193cd3bcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/New Material.mat using Guid(89c6353343048d84eabfb8193cd3bcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323a44fcd1f47efb5a9a5798b0645512') in 0.016723 seconds
+  Import took 0.020795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.833522 seconds.
+  path: Assets/VR360/Materials360/HotSpotPeq.mat
+  artifactKey: Guid(89c6353343048d84eabfb8193cd3bcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/HotSpotPeq.mat using Guid(89c6353343048d84eabfb8193cd3bcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242a90b179d3104548623ed9d5539249') in 0.016213 seconds
+  Import took 0.019174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.373478 seconds.
+  path: Assets/VR360/Materials360/HotSpots
+  artifactKey: Guid(d339c4a4099700a47813ccabb00cb3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/HotSpots using Guid(d339c4a4099700a47813ccabb00cb3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074c433e48694b84b804b0fb2824e507') in 0.008140 seconds
+  Import took 0.011091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 839.873233 seconds.
+  path: Assets/VR360/Materials360/Prefabs
+  artifactKey: Guid(aaddfe84fe214754989c103652af3bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/Prefabs using Guid(aaddfe84fe214754989c103652af3bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e019564faaf3cddcc18aab7bba71a946') in 0.008622 seconds
+  Import took 0.011978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 562.078162 seconds.
+  path: Assets/VR360/Materials360/HotSpots/HotSpotPeq.mat
+  artifactKey: Guid(89c6353343048d84eabfb8193cd3bcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/HotSpots/HotSpotPeq.mat using Guid(89c6353343048d84eabfb8193cd3bcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c86a8f0d6218ce87d02f1f039065e12') in 0.145168 seconds
+  Import took 0.148624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.100892 seconds.
+  path: Assets/VR360/Scenes360/VR360.unity
+  artifactKey: Guid(844bd2edff46bd84dadd6c4613cf60ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Scenes360/VR360.unity using Guid(844bd2edff46bd84dadd6c4613cf60ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63b76a7afd4ffd63508bd53c7154144') in 0.006489 seconds
+  Import took 0.009282 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
