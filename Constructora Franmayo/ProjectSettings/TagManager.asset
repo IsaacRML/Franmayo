@@ -8,6 +8,7 @@ TagManager:
   - alexa
   - reticula
   - modem
+  - canvas
   layers:
   - Default
   - TransparentFX
