@@ -1,0 +1,202 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1766; Version 2009; 64bit' Language: 'es' Physical Memory: 8025 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Jonathan/Documents/GitHub/Franmayo/Constructora Franmayo
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+58104
+Successfully changed project path to: C:/Users/Jonathan/Documents/GitHub/Franmayo/Constructora Franmayo
+C:/Users/Jonathan/Documents/GitHub/Franmayo/Constructora Franmayo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 58.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jonathan/Documents/GitHub/Franmayo/Constructora Franmayo/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     4012 MB
+    Driver:   26.20.100.7263
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003225 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.201 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006239 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.376 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.29 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1410 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1848.
+Total: 2.116400 ms (FindLiveObjects: 0.155600 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.853200 ms  DeleteObjects: 0.065800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Simple Garage/Materials/window.mat
+  artifactKey: Guid(800bffdf45a9391409808efe68d14850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/window.mat using Guid(800bffdf45a9391409808efe68d14850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8040800c6846cd3d5d429928339e7a3') in 0.980206 seconds
+  Import took 0.983060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Simple Garage/Materials/worn_metal4_albedo.mat
+  artifactKey: Guid(115ea869919384c4b8d1450d85ef1a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/worn_metal4_albedo.mat using Guid(115ea869919384c4b8d1450d85ef1a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c0576580325f97c8447d57df354a10') in 0.834927 seconds
+  Import took 0.837409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 561.497850 seconds.
+  path: Assets/VR360/Fotos360/3-Casa-Gran/11-Cuarto2-Gran.jpg
+  artifactKey: Guid(dcc2ccb73f99e324eae76bdf05d483dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Fotos360/3-Casa-Gran/11-Cuarto2-Gran.jpg using Guid(dcc2ccb73f99e324eae76bdf05d483dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9f088e141f49aad2e1fda288c31334') in 0.222258 seconds
+  Import took 0.226246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.623737 seconds.
+  path: Assets/VR360/Fotos360/3-Casa-Gran/13-Cuarto3-1-Gran.jpg
+  artifactKey: Guid(f9a294a5a197d7e4ebc059cc7fc0d654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Fotos360/3-Casa-Gran/13-Cuarto3-1-Gran.jpg using Guid(f9a294a5a197d7e4ebc059cc7fc0d654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf950f8dcb5acacb07394d6742b8b05') in 0.092539 seconds
+  Import took 0.096984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.139237 seconds.
+  path: Assets/VR360/Fotos360/3-Casa-Gran/15-Cuarto3-2-Gran.jpg
+  artifactKey: Guid(0c80aaeb536c3d74f8719941c693447e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Fotos360/3-Casa-Gran/15-Cuarto3-2-Gran.jpg using Guid(0c80aaeb536c3d74f8719941c693447e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5733c7b23d9e6f6df3616b2e69fc36ba') in 0.027403 seconds
+  Import took 0.031595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.604913 seconds.
+  path: Assets/VR360/Fotos360/3-Casa-Gran/16-Cuarto1-Gran.jpg
+  artifactKey: Guid(1d3e7b10eef4da6478de7353466ca7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Fotos360/3-Casa-Gran/16-Cuarto1-Gran.jpg using Guid(1d3e7b10eef4da6478de7353466ca7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2df1154a7e3ebfcca2da1ebf38d2f71') in 0.085297 seconds
+  Import took 0.089471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.482602 seconds.
+  path: Assets/VR360/Fotos360/3-Casa-Gran/16-Cuarto1-Gran.jpg
+  artifactKey: Guid(1d3e7b10eef4da6478de7353466ca7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Fotos360/3-Casa-Gran/16-Cuarto1-Gran.jpg using Guid(1d3e7b10eef4da6478de7353466ca7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434c78d49aee35f401a288163f264e3b') in 0.196354 seconds
+  Import took 0.200498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.630567 seconds.
+  path: Assets/VR360/Materials360/3-Casa-Gran/Cuarto2-Gran.mat
+  artifactKey: Guid(cd827923d7c40be48b43a40e30324ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/3-Casa-Gran/Cuarto2-Gran.mat using Guid(cd827923d7c40be48b43a40e30324ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0fb0e9953677e3d7004f2f6d26b619') in 0.050785 seconds
+  Import took 0.054569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.384671 seconds.
+  path: Assets/VR360/Materials360/3-Casa-Gran/Cuarto3-1-Gran.mat
+  artifactKey: Guid(d38c97a1149d5e140bf5fbc658aef9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/3-Casa-Gran/Cuarto3-1-Gran.mat using Guid(d38c97a1149d5e140bf5fbc658aef9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163210cc4cfaed8f14c6b6c4ea5be890') in 0.034914 seconds
+  Import took 0.037920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.327804 seconds.
+  path: Assets/VR360/Materials360/3-Casa-Gran/Cuarto3-2-Gran.mat
+  artifactKey: Guid(609acca2a07fed94c9cf84a5d40b3acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/3-Casa-Gran/Cuarto3-2-Gran.mat using Guid(609acca2a07fed94c9cf84a5d40b3acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3c537fffc6fb7cbeffc243fbb573ab') in 0.021388 seconds
+  Import took 0.024500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.804286 seconds.
+  path: Assets/VR360/Materials360/3-Casa-Gran/Cuarto1-Gran.mat
+  artifactKey: Guid(855b5b1746ee8f648851d2f3c0bd5ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR360/Materials360/3-Casa-Gran/Cuarto1-Gran.mat using Guid(855b5b1746ee8f648851d2f3c0bd5ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f626c6abd6ad287b4530865ad1196ba') in 0.023463 seconds
+  Import took 0.026620 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005346 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.196 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.8 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1895.
+Total: 2.544900 ms (FindLiveObjects: 0.217300 ms CreateObjectMapping: 0.076200 ms MarkObjects: 2.163900 ms  DeleteObjects: 0.086200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.8 MB.
+System memory in use after: 70.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1898.
+Total: 2.391000 ms (FindLiveObjects: 0.157900 ms CreateObjectMapping: 0.046800 ms MarkObjects: 2.128900 ms  DeleteObjects: 0.056300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
