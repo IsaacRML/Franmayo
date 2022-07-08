@@ -33,11 +33,20 @@ public class HitboxInfo : MonoBehaviour
         panel.SetActive (true);
         }
         
-        else if(other.tag == "cuarto1"){
-        test = "Cuarto Grande";
+        else if(other.tag == "habitacion1"){
+        test = "Cuarto 1 ";
         panel.SetActive (true);
         }
         
+        else if(other.tag == "habitacion2"){
+        test = "Cuarto 2";
+        panel.SetActive (true);
+        }
+        
+        else if(other.tag == "habitacionp"){
+        test = "Cuarto principal";
+        panel.SetActive (true);
+        }
         
 
     }
@@ -49,5 +58,13 @@ public class HitboxInfo : MonoBehaviour
         if(others.tag == "modem")
         panel.SetActive (false);
 
+        if(others.tag == "habitacion1")
+        panel.SetActive (false);
+        
+        if(others.tag == "habitacion2")
+        panel.SetActive (false);
+        
+        if(others.tag == "habitacionp")
+        panel.SetActive (false);
     }
 }

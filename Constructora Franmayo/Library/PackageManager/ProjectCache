@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637909103938591972
-    m_Hash: 1399147122
+      ticks: 637928103659282153
+    m_Hash: 672819550
   m_LockFileStatus:
     m_FilePath: C:/Users/Admin/Desktop/Estadia2022/Franmayo/Constructora Franmayo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637909103939724728
-    m_Hash: 2568812784
+      ticks: 637928103659295493
+    m_Hash: 1541314312
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

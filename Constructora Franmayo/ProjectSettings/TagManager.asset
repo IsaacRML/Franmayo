@@ -9,6 +9,9 @@ TagManager:
   - reticula
   - modem
   - canvas
+  - habitacion1
+  - habitacion2
+  - habitacionp
   layers:
   - Default
   - TransparentFX
