@@ -12,6 +12,10 @@ TagManager:
   - habitacion1
   - habitacion2
   - habitacionp
+  - "ba\xF1o1"
+  - "ba\xF1op"
+  - "ba\xF1o2"
+  - cocina
   layers:
   - Default
   - TransparentFX
