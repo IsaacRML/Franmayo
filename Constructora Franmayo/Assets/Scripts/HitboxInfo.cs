@@ -29,7 +29,7 @@ public class HitboxInfo : MonoBehaviour
         }
 
         else if(other.tag == "modem"){
-        test = "Cada casa cuenta con internet de alta calidad, conectado usando fibra óptica, la cuál provee a los usuarios con una velocidad de 90 mb/s";
+        test = "Cada casa cuenta con internet de alta calidad, conectado usando fibra óptica, la cuál provee a los usuarios con una velocidad de 90 mb/s.";
         panel.SetActive (true);
         }
         
@@ -45,6 +45,31 @@ public class HitboxInfo : MonoBehaviour
         
         else if(other.tag == "habitacionp"){
         test = "Cuarto principal";
+        panel.SetActive (true);
+        }
+        
+        else if(other.tag == "bañop"){
+        test = "Baño completo parte de la habitación principal.";
+        panel.SetActive (true);
+        }
+        
+        else if(other.tag == "baño1"){
+        test = "Medio baño de la primera planta de la casa.";
+        panel.SetActive (true);
+        }
+        
+        else if(other.tag == "baño2"){
+        test = "Baño completo de la segunda planta de la casa.";
+        panel.SetActive (true);
+        }
+
+        else if(other.tag == "cocina"){
+        test = "Nuestras cocinas son modelos completos con estufas integradas, refrigerador y anaqueles para resguardar sus alimentos.";
+        panel.SetActive (true);
+        }
+
+        else if(other.tag == "caja"){
+        test = "Caja de fusibles.";
         panel.SetActive (true);
         }
         
@@ -65,6 +90,21 @@ public class HitboxInfo : MonoBehaviour
         panel.SetActive (false);
         
         if(others.tag == "habitacionp")
+        panel.SetActive (false);
+        
+        if(others.tag == "bañop")
+        panel.SetActive (false);
+        
+        if(others.tag == "baño1")
+        panel.SetActive (false);
+        
+        if(others.tag == "baño2")
+        panel.SetActive (false);
+        
+        if(others.tag == "cocina")
+        panel.SetActive (false);
+        
+        if(others.tag == "caja")
         panel.SetActive (false);
     }
 }

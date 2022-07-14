@@ -16,6 +16,7 @@ TagManager:
   - "ba\xF1op"
   - "ba\xF1o2"
   - cocina
+  - caja
   layers:
   - Default
   - TransparentFX
