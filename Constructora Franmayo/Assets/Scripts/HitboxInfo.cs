@@ -73,6 +73,7 @@ public class HitboxInfo : MonoBehaviour
         panel.SetActive (true);
         }
         
+        
 
     }
     private void OnTriggerExit(Collider others)

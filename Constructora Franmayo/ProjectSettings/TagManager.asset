@@ -17,6 +17,11 @@ TagManager:
   - "ba\xF1o2"
   - cocina
   - caja
+  - colormenu
+  - color1
+  - color2
+  - color3
+  - colorOg
   layers:
   - Default
   - TransparentFX
